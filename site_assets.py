@@ -244,6 +244,8 @@ async function renderDiagnostics() {
   try { caches_ = (await caches.keys()).join(', ') || '(none)'; } catch (e) {}
   let storage = 'n/a';
   try { const s = await navigator.storage.estimate(); storage = Math.round(s.usage / 1024) + ' KB used of ' + Math.round(s.quota / 1048576) + ' MB'; } catch (e) {}
+  let persisted = 'unknown';
+  try { persisted = String(await navigator.storage.persisted()); } catch (e) {}
   const hours = ((Date.now() / 1000 - SCAN_EPOCH) / 3600).toFixed(1);
   el.textContent = [
     '=== TrendScout phone diagnostics ===',
@@ -258,7 +260,7 @@ async function renderDiagnostics() {
     'Last version check: ' + (window.__lastVersionCheck || 'n/a'),
     'Watchlist items on this device: ' + Object.keys(wl).length,
     'Chosen tech mix:     ' + _lsGet(MIX_KEY, DEFAULT_MIX),
-    'Storage:             ' + storage,
+    'Storage:             ' + storage + '  (kept permanently by the browser: ' + persisted + ')',
     'Browser:             ' + navigator.userAgent,
     'Screen:              ' + screen.width + 'x' + screen.height + ' @' + devicePixelRatio + 'x, viewport ' + innerWidth + 'x' + innerHeight,
     '',
@@ -267,6 +269,8 @@ async function renderDiagnostics() {
 }
 
 /* ---------- start-up ---------- */
+// Ask the browser to keep this site's saved data (the watchlist) instead of clearing it after a stretch of non-use.
+if (navigator.storage && navigator.storage.persist) { navigator.storage.persist().catch(() => {}); }
 applyMix(_lsGet(MIX_KEY, DEFAULT_MIX));
 applyChecks();
 renderWatchlist();
