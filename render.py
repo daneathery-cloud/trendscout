@@ -330,7 +330,7 @@ async function openFree(btn, ev) {
     const d = await getFreeData(btn.dataset.title || '');
     if (_freePop !== pop) return;
     pop.textContent = '';
-    pop.appendChild(_el('div', 'fp-head', 'Same story, other outlets'));
+    pop.appendChild(_el('div', 'fp-head', 'Coverage from other outlets'));
     if (d.matches && d.matches.length) {
       d.matches.forEach(m => {
         const a = _el('a', 'hit');
