@@ -175,9 +175,7 @@ def build_site(result: dict, out_dir: str, repo_url: str = DEFAULT_REPO_URL, pro
         f.write(site_assets.sw_js(build_id))
     open(os.path.join(out_dir, ".nojekyll"), "w").close()
     with open(os.path.join(out_dir, "robots.txt"), "w") as f:
-        f.write("User-agent: *
-Disallow: /
-")
+        f.write("User-agent: *\nDisallow: /\n")
     site_assets.write_icons(out_dir)
 
     sizes = {name: os.path.getsize(os.path.join(out_dir, name)) for name in list(pages) + ["free.json"]}
