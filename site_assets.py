@@ -293,7 +293,9 @@ self.addEventListener("install", (event) => {{
 
 self.addEventListener("activate", (event) => {{
   event.waitUntil(
-    caches.keys().then((keys) => Promise.all(keys.filter((k) => k !== CACHE).map((k) => caches.delete(k))))
+    // Every app on this github.io address shares one cache store (HLSA included), so only ever
+    // clear TrendScout's own older caches.
+    caches.keys().then((keys) => Promise.all(keys.filter((k) => k.startsWith("trendscout-") && k !== CACHE).map((k) => caches.delete(k))))
       .then(() => self.clients.claim())
   );
 }});
