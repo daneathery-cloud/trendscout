@@ -1,0 +1,18 @@
+# Personal data - never publish
+*.db
+*.db-journal
+reports/
+*.log
+
+# Build output and local environment
+venv/
+dist/
+build/
+*.exe
+*.spec
+__pycache__/
+*.pyc
+
+# Generated phone site (the cloud workflow publishes it to the gh-pages branch instead)
+site/
+_cache/

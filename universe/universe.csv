@@ -1,0 +1,902 @@
+Symbol,Security,GICS Sector,GICS Sub-Industry,CapTier,SectorBucket
+MMM,3M,Industrials,Industrial Conglomerates,Large,Non-Tech
+AOS,A. O. Smith,Industrials,Building Products,Large,Non-Tech
+ABT,Abbott Laboratories,Health Care,Health Care Equipment,Large,Non-Tech
+ABBV,AbbVie,Health Care,Biotechnology,Large,Non-Tech
+ACN,Accenture,Information Technology,IT Consulting & Other Services,Large,Tech
+ADBE,Adobe Inc.,Information Technology,Application Software,Large,Tech
+AMD,Advanced Micro Devices,Information Technology,Semiconductors,Large,Tech
+AES,AES Corporation,Utilities,Independent Power Producers & Energy Traders,Large,Non-Tech
+AFL,Aflac,Financials,Life & Health Insurance,Large,Non-Tech
+A,Agilent Technologies,Health Care,Life Sciences Tools & Services,Large,Non-Tech
+APD,Air Products,Materials,Industrial Gases,Large,Non-Tech
+ABNB,Airbnb,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",Large,Non-Tech
+AKAM,Akamai Technologies,Information Technology,Internet Services & Infrastructure,Large,Tech
+ALB,Albemarle Corporation,Materials,Specialty Chemicals,Large,Non-Tech
+ARE,Alexandria Real Estate Equities,Real Estate,Office REITs,Large,Non-Tech
+ALGN,Align Technology,Health Care,Health Care Supplies,Large,Non-Tech
+ALLE,Allegion,Industrials,Building Products,Large,Non-Tech
+LNT,Alliant Energy,Utilities,Electric Utilities,Large,Non-Tech
+ALL,Allstate,Financials,Property & Casualty Insurance,Large,Non-Tech
+GOOGL,Alphabet Inc. (Class A),Communication Services,Interactive Media & Services,Large,Tech
+GOOG,Alphabet Inc. (Class C),Communication Services,Interactive Media & Services,Large,Tech
+MO,Altria,Consumer Staples,Tobacco,Large,Non-Tech
+AMZN,Amazon,Consumer Discretionary,Broadline Retail,Large,Non-Tech
+AMCR,Amcor,Materials,Paper & Plastic Packaging Products & Materials,Large,Non-Tech
+AEE,Ameren,Utilities,Multi-Utilities,Large,Non-Tech
+AEP,American Electric Power,Utilities,Electric Utilities,Large,Non-Tech
+AXP,American Express,Financials,Consumer Finance,Large,Non-Tech
+AIG,American International Group,Financials,Multi-line Insurance,Large,Non-Tech
+AMT,American Tower,Real Estate,Telecom Tower REITs,Large,Non-Tech
+AWK,American Water Works,Utilities,Water Utilities,Large,Non-Tech
+AMP,Ameriprise Financial,Financials,Asset Management & Custody Banks,Large,Non-Tech
+AME,Ametek,Industrials,Electrical Components & Equipment,Large,Non-Tech
+AMGN,Amgen,Health Care,Biotechnology,Large,Non-Tech
+APH,Amphenol,Information Technology,Electronic Components,Large,Tech
+ADI,Analog Devices,Information Technology,Semiconductors,Large,Tech
+AON,Aon plc,Financials,Insurance Brokers,Large,Non-Tech
+APA,APA Corporation,Energy,Oil & Gas Exploration & Production,Large,Non-Tech
+APO,Apollo Global Management,Financials,Asset Management & Custody Banks,Large,Non-Tech
+AAPL,Apple Inc.,Information Technology,"Technology Hardware, Storage & Peripherals",Large,Tech
+AMAT,Applied Materials,Information Technology,Semiconductor Materials & Equipment,Large,Tech
+APP,AppLovin,Communication Services,Advertising,Large,Non-Tech
+APTV,Aptiv,Consumer Discretionary,Automotive Parts & Equipment,Large,Non-Tech
+ACGL,Arch Capital Group,Financials,Property & Casualty Insurance,Large,Non-Tech
+ADM,Archer Daniels Midland,Consumer Staples,Agricultural Products & Services,Large,Non-Tech
+ARES,Ares Management,Financials,Asset Management & Custody Banks,Large,Non-Tech
+ANET,Arista Networks,Information Technology,Communications Equipment,Large,Tech
+AJG,Arthur J. Gallagher & Co.,Financials,Insurance Brokers,Large,Non-Tech
+AIZ,Assurant,Financials,Multi-line Insurance,Large,Non-Tech
+T,AT&T,Communication Services,Integrated Telecommunication Services,Large,Non-Tech
+ATO,Atmos Energy,Utilities,Gas Utilities,Large,Non-Tech
+ADSK,Autodesk,Information Technology,Application Software,Large,Tech
+ADP,Automatic Data Processing,Industrials,Human Resource & Employment Services,Large,Non-Tech
+AZO,AutoZone,Consumer Discretionary,Automotive Retail,Large,Non-Tech
+AVY,Avery Dennison,Materials,Paper & Plastic Packaging Products & Materials,Large,Non-Tech
+AXON,Axon Enterprise,Industrials,Aerospace & Defense,Large,Non-Tech
+BKR,Baker Hughes,Energy,Oil & Gas Equipment & Services,Large,Non-Tech
+BALL,Ball Corporation,Materials,"Metal, Glass & Plastic Containers",Large,Non-Tech
+BAC,Bank of America,Financials,Diversified Banks,Large,Non-Tech
+BAX,Baxter International,Health Care,Health Care Equipment,Large,Non-Tech
+BDX,Becton Dickinson,Health Care,Health Care Equipment,Large,Non-Tech
+BRK-B,Berkshire Hathaway,Financials,Multi-Sector Holdings,Large,Non-Tech
+BBY,Best Buy,Consumer Discretionary,Computer & Electronics Retail,Large,Non-Tech
+TECH,Bio-Techne,Health Care,Life Sciences Tools & Services,Large,Non-Tech
+BIIB,Biogen,Health Care,Biotechnology,Large,Non-Tech
+BLK,BlackRock,Financials,Asset Management & Custody Banks,Large,Non-Tech
+BX,Blackstone Inc.,Financials,Asset Management & Custody Banks,Large,Non-Tech
+XYZ,"Block, Inc.",Financials,Transaction & Payment Processing Services,Large,Non-Tech
+BE,Bloom Energy,Industrials,Electrical Components & Equipment,Large,Non-Tech
+BNY,BNY Mellon,Financials,Asset Management & Custody Banks,Large,Non-Tech
+BA,Boeing,Industrials,Aerospace & Defense,Large,Non-Tech
+BKNG,Booking Holdings,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",Large,Non-Tech
+BSX,Boston Scientific,Health Care,Health Care Equipment,Large,Non-Tech
+BMY,Bristol Myers Squibb,Health Care,Pharmaceuticals,Large,Non-Tech
+AVGO,Broadcom,Information Technology,Semiconductors,Large,Tech
+BR,Broadridge Financial Solutions,Industrials,Data Processing & Outsourced Services,Large,Non-Tech
+BRO,Brown & Brown,Financials,Insurance Brokers,Large,Non-Tech
+BF-B,Brown–Forman,Consumer Staples,Distillers & Vintners,Large,Non-Tech
+BG,Bunge Global,Consumer Staples,Agricultural Products & Services,Large,Non-Tech
+BXP,"BXP, Inc.",Real Estate,Office REITs,Large,Non-Tech
+CHRW,C.H. Robinson,Industrials,Air Freight & Logistics,Large,Non-Tech
+CDNS,Cadence Design Systems,Information Technology,Application Software,Large,Tech
+CPT,Camden Property Trust,Real Estate,Multi-Family Residential REITs,Large,Non-Tech
+COF,Capital One,Financials,Consumer Finance,Large,Non-Tech
+CAH,Cardinal Health,Health Care,Health Care Distributors,Large,Non-Tech
+CCL,Carnival Corporation,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",Large,Non-Tech
+CARR,Carrier Global,Industrials,Building Products,Large,Non-Tech
+CVNA,Carvana,Consumer Discretionary,Automotive Retail,Large,Non-Tech
+CASY,Casey's,Consumer Staples,Food Retail,Large,Non-Tech
+CAT,Caterpillar Inc.,Industrials,Construction Machinery & Heavy Transportation Equipment,Large,Non-Tech
+CBOE,Cboe Global Markets,Financials,Financial Exchanges & Data,Large,Non-Tech
+CBRE,CBRE Group,Real Estate,Real Estate Services,Large,Non-Tech
+CDW,CDW Corporation,Information Technology,Technology Distributors,Large,Tech
+COR,Cencora,Health Care,Health Care Distributors,Large,Non-Tech
+CNC,Centene Corporation,Health Care,Managed Health Care,Large,Non-Tech
+CNP,CenterPoint Energy,Utilities,Multi-Utilities,Large,Non-Tech
+CF,CF Industries,Materials,Fertilizers & Agricultural Chemicals,Large,Non-Tech
+CRL,Charles River Laboratories,Health Care,Life Sciences Tools & Services,Large,Non-Tech
+SCHW,Charles Schwab Corporation,Financials,Investment Banking & Brokerage,Large,Non-Tech
+CHTR,Charter Communications,Communication Services,Cable & Satellite,Large,Non-Tech
+CVX,Chevron Corporation,Energy,Integrated Oil & Gas,Large,Non-Tech
+CMG,Chipotle Mexican Grill,Consumer Discretionary,Restaurants,Large,Non-Tech
+CB,Chubb Limited,Financials,Property & Casualty Insurance,Large,Non-Tech
+CHD,Church & Dwight,Consumer Staples,Household Products,Large,Non-Tech
+CIEN,Ciena,Information Technology,Communications Equipment,Large,Tech
+CI,Cigna,Health Care,Health Care Services,Large,Non-Tech
+CINF,Cincinnati Financial,Financials,Property & Casualty Insurance,Large,Non-Tech
+CTAS,Cintas,Industrials,Diversified Support Services,Large,Non-Tech
+CSCO,Cisco,Information Technology,Communications Equipment,Large,Tech
+C,Citigroup,Financials,Diversified Banks,Large,Non-Tech
+CFG,Citizens Financial Group,Financials,Regional Banks,Large,Non-Tech
+CLX,Clorox,Consumer Staples,Household Products,Large,Non-Tech
+CME,CME Group,Financials,Financial Exchanges & Data,Large,Non-Tech
+CMS,CMS Energy,Utilities,Multi-Utilities,Large,Non-Tech
+KO,Coca-Cola Company (The),Consumer Staples,Soft Drinks & Non-alcoholic Beverages,Large,Non-Tech
+CTSH,Cognizant,Information Technology,IT Consulting & Other Services,Large,Tech
+COHR,Coherent Corp.,Information Technology,Electronic Components,Large,Tech
+COIN,Coinbase,Financials,Financial Exchanges & Data,Large,Non-Tech
+CL,Colgate-Palmolive,Consumer Staples,Household Products,Large,Non-Tech
+CMCSA,Comcast,Communication Services,Cable & Satellite,Large,Non-Tech
+FIX,Comfort Systems USA,Industrials,Construction & Engineering,Large,Non-Tech
+COP,ConocoPhillips,Energy,Oil & Gas Exploration & Production,Large,Non-Tech
+ED,Consolidated Edison,Utilities,Multi-Utilities,Large,Non-Tech
+STZ,Constellation Brands,Consumer Staples,Distillers & Vintners,Large,Non-Tech
+CEG,Constellation Energy,Utilities,Electric Utilities,Large,Non-Tech
+COO,Cooper Companies (The),Health Care,Health Care Supplies,Large,Non-Tech
+CPRT,Copart,Industrials,Diversified Support Services,Large,Non-Tech
+GLW,Corning Inc.,Information Technology,Electronic Components,Large,Tech
+CPAY,Corpay,Financials,Transaction & Payment Processing Services,Large,Non-Tech
+CTVA,Corteva,Materials,Fertilizers & Agricultural Chemicals,Large,Non-Tech
+CSGP,CoStar Group,Real Estate,Real Estate Services,Large,Non-Tech
+COST,Costco,Consumer Staples,Consumer Staples Merchandise Retail,Large,Non-Tech
+CRH,CRH plc,Materials,Construction Materials,Large,Non-Tech
+CRWD,CrowdStrike,Information Technology,Systems Software,Large,Tech
+CCI,Crown Castle,Real Estate,Telecom Tower REITs,Large,Non-Tech
+CSX,CSX Corporation,Industrials,Rail Transportation,Large,Non-Tech
+CMI,Cummins,Industrials,Construction Machinery & Heavy Transportation Equipment,Large,Non-Tech
+CVS,CVS Health,Health Care,Health Care Services,Large,Non-Tech
+DHR,Danaher Corporation,Health Care,Life Sciences Tools & Services,Large,Non-Tech
+DRI,Darden Restaurants,Consumer Discretionary,Restaurants,Large,Non-Tech
+DDOG,Datadog,Information Technology,Application Software,Large,Tech
+DVA,DaVita,Health Care,Health Care Services,Large,Non-Tech
+DECK,Deckers Brands,Consumer Discretionary,Footwear,Large,Non-Tech
+DE,Deere & Company,Industrials,Agricultural & Farm Machinery,Large,Non-Tech
+DELL,Dell Technologies,Information Technology,"Technology Hardware, Storage & Peripherals",Large,Tech
+DAL,Delta Air Lines,Industrials,Passenger Airlines,Large,Non-Tech
+DVN,Devon Energy,Energy,Oil & Gas Exploration & Production,Large,Non-Tech
+DXCM,Dexcom,Health Care,Health Care Equipment,Large,Non-Tech
+FANG,Diamondback Energy,Energy,Oil & Gas Exploration & Production,Large,Non-Tech
+DLR,Digital Realty,Real Estate,Data Center REITs,Large,Non-Tech
+DG,Dollar General,Consumer Staples,Consumer Staples Merchandise Retail,Large,Non-Tech
+DLTR,Dollar Tree,Consumer Staples,Consumer Staples Merchandise Retail,Large,Non-Tech
+D,Dominion Energy,Utilities,Multi-Utilities,Large,Non-Tech
+DPZ,Domino's,Consumer Discretionary,Restaurants,Large,Non-Tech
+DASH,DoorDash,Consumer Discretionary,Specialized Consumer Services,Large,Non-Tech
+DOV,Dover Corporation,Industrials,Industrial Machinery & Supplies & Components,Large,Non-Tech
+DOW,Dow Inc.,Materials,Commodity Chemicals,Large,Non-Tech
+DHI,D. R. Horton,Consumer Discretionary,Homebuilding,Large,Non-Tech
+DTE,DTE Energy,Utilities,Multi-Utilities,Large,Non-Tech
+DUK,Duke Energy,Utilities,Electric Utilities,Large,Non-Tech
+DD,DuPont,Industrials,Industrial Conglomerates,Large,Non-Tech
+ETN,Eaton Corporation,Industrials,Electrical Components & Equipment,Large,Non-Tech
+EBAY,eBay Inc.,Consumer Discretionary,Broadline Retail,Large,Non-Tech
+ECHO,EchoStar,Communication Services,Wireless Telecommunication Services,Large,Non-Tech
+ECL,Ecolab,Materials,Specialty Chemicals,Large,Non-Tech
+EIX,Edison International,Utilities,Electric Utilities,Large,Non-Tech
+EW,Edwards Lifesciences,Health Care,Health Care Equipment,Large,Non-Tech
+ELV,Elevance Health,Health Care,Managed Health Care,Large,Non-Tech
+EME,Emcor,Industrials,Construction & Engineering,Large,Non-Tech
+EMR,Emerson Electric,Industrials,Electrical Components & Equipment,Large,Non-Tech
+ETR,Entergy,Utilities,Electric Utilities,Large,Non-Tech
+EOG,EOG Resources,Energy,Oil & Gas Exploration & Production,Large,Non-Tech
+EQT,EQT Corporation,Energy,Oil & Gas Exploration & Production,Large,Non-Tech
+EFX,Equifax,Industrials,Research & Consulting Services,Large,Non-Tech
+EQIX,Equinix,Real Estate,Data Center REITs,Large,Non-Tech
+ERIE,Erie Indemnity,Financials,Insurance Brokers,Large,Non-Tech
+ESS,Essex Property Trust,Real Estate,Multi-Family Residential REITs,Large,Non-Tech
+EL,Estée Lauder Companies (The),Consumer Staples,Personal Care Products,Large,Non-Tech
+EG,Everest Group,Financials,Reinsurance,Large,Non-Tech
+EVRG,Evergy,Utilities,Electric Utilities,Large,Non-Tech
+P,Everpure,Information Technology,"Technology Hardware, Storage & Peripherals",Large,Tech
+ES,Eversource Energy,Utilities,Electric Utilities,Large,Non-Tech
+EXC,Exelon,Utilities,Electric Utilities,Large,Non-Tech
+EXE,Expand Energy,Energy,Oil & Gas Exploration & Production,Large,Non-Tech
+EXPE,Expedia Group,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",Large,Non-Tech
+EXPD,Expeditors International,Industrials,Air Freight & Logistics,Large,Non-Tech
+EXR,Extra Space Storage,Real Estate,Self-Storage REITs,Large,Non-Tech
+XOM,ExxonMobil,Energy,Integrated Oil & Gas,Large,Non-Tech
+FFIV,"F5, Inc.",Information Technology,Communications Equipment,Large,Tech
+FDS,FactSet,Financials,Financial Exchanges & Data,Large,Non-Tech
+FICO,Fair Isaac,Information Technology,Application Software,Large,Tech
+FAST,Fastenal,Industrials,Trading Companies & Distributors,Large,Non-Tech
+FRT,Federal Realty Investment Trust,Real Estate,Retail REITs,Large,Non-Tech
+FDX,FedEx,Industrials,Air Freight & Logistics,Large,Non-Tech
+FDXF,FedEx Freight,Industrials,Cargo Ground Transportation,Large,Non-Tech
+FERG,Ferguson Enterprises,Industrials,Trading Companies & Distributors,Large,Non-Tech
+FIS,Fidelity National Information Services,Financials,Transaction & Payment Processing Services,Large,Non-Tech
+FITB,Fifth Third Bancorp,Financials,Regional Banks,Large,Non-Tech
+FSLR,First Solar,Information Technology,Semiconductors,Large,Tech
+FE,FirstEnergy,Utilities,Electric Utilities,Large,Non-Tech
+FISV,Fiserv,Financials,Transaction & Payment Processing Services,Large,Non-Tech
+FLEX,Flex Ltd.,Information Technology,Electronic Manufacturing Services,Large,Tech
+F,Ford Motor Company,Consumer Discretionary,Automobile Manufacturers,Large,Non-Tech
+FTNT,Fortinet,Information Technology,Systems Software,Large,Tech
+FTV,Fortive,Industrials,Industrial Machinery & Supplies & Components,Large,Non-Tech
+FOXA,Fox Corporation (Class A),Communication Services,Broadcasting,Large,Non-Tech
+FOX,Fox Corporation (Class B),Communication Services,Broadcasting,Large,Non-Tech
+BEN,Franklin Resources,Financials,Asset Management & Custody Banks,Large,Non-Tech
+FCX,Freeport-McMoRan,Materials,Copper,Large,Non-Tech
+GRMN,Garmin,Consumer Discretionary,Consumer Electronics,Large,Non-Tech
+IT,Gartner,Information Technology,IT Consulting & Other Services,Large,Tech
+GE,GE Aerospace,Industrials,Aerospace & Defense,Large,Non-Tech
+GEHC,GE HealthCare,Health Care,Health Care Equipment,Large,Non-Tech
+GEV,GE Vernova,Industrials,Heavy Electrical Equipment,Large,Non-Tech
+GEN,Gen Digital,Information Technology,Systems Software,Large,Tech
+GNRC,Generac,Industrials,Heavy Electrical Equipment,Large,Non-Tech
+GD,General Dynamics,Industrials,Aerospace & Defense,Large,Non-Tech
+GIS,General Mills,Consumer Staples,Packaged Foods & Meats,Large,Non-Tech
+GM,General Motors,Consumer Discretionary,Automobile Manufacturers,Large,Non-Tech
+GPC,Genuine Parts Company,Consumer Discretionary,Distributors,Large,Non-Tech
+GILD,Gilead Sciences,Health Care,Biotechnology,Large,Non-Tech
+GPN,Global Payments,Financials,Transaction & Payment Processing Services,Large,Non-Tech
+GL,Globe Life,Financials,Life & Health Insurance,Large,Non-Tech
+GDDY,GoDaddy,Information Technology,Internet Services & Infrastructure,Large,Tech
+GS,Goldman Sachs,Financials,Investment Banking & Brokerage,Large,Non-Tech
+HAL,Halliburton,Energy,Oil & Gas Equipment & Services,Large,Non-Tech
+HIG,Hartford (The),Financials,Property & Casualty Insurance,Large,Non-Tech
+HAS,Hasbro,Consumer Discretionary,Leisure Products,Large,Non-Tech
+HCA,HCA Healthcare,Health Care,Health Care Facilities,Large,Non-Tech
+DOC,Healthpeak Properties,Real Estate,Health Care REITs,Large,Non-Tech
+HSIC,Henry Schein,Health Care,Health Care Distributors,Large,Non-Tech
+HSY,Hershey Company (The),Consumer Staples,Packaged Foods & Meats,Large,Non-Tech
+HPE,Hewlett Packard Enterprise,Information Technology,"Technology Hardware, Storage & Peripherals",Large,Tech
+HLT,Hilton Worldwide,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",Large,Non-Tech
+HD,Home Depot (The),Consumer Discretionary,Home Improvement Retail,Large,Non-Tech
+HONA,Honeywell Aerospace,Industrials,Aerospace & Defense,Large,Non-Tech
+HON,Honeywell Technologies,Industrials,Industrial Conglomerates,Large,Non-Tech
+HRL,Hormel Foods,Consumer Staples,Packaged Foods & Meats,Large,Non-Tech
+HST,Host Hotels & Resorts,Real Estate,Hotel & Resort REITs,Large,Non-Tech
+HWM,Howmet Aerospace,Industrials,Aerospace & Defense,Large,Non-Tech
+HPQ,HP Inc.,Information Technology,"Technology Hardware, Storage & Peripherals",Large,Tech
+HUBB,Hubbell Incorporated,Industrials,Industrial Machinery & Supplies & Components,Large,Non-Tech
+HUM,Humana,Health Care,Managed Health Care,Large,Non-Tech
+HBAN,Huntington Bancshares,Financials,Regional Banks,Large,Non-Tech
+HII,Huntington Ingalls Industries,Industrials,Aerospace & Defense,Large,Non-Tech
+IBM,IBM,Information Technology,IT Consulting & Other Services,Large,Tech
+IEX,IDEX Corporation,Industrials,Industrial Machinery & Supplies & Components,Large,Non-Tech
+IDXX,Idexx Laboratories,Health Care,Health Care Equipment,Large,Non-Tech
+ITW,Illinois Tool Works,Industrials,Industrial Machinery & Supplies & Components,Large,Non-Tech
+ILMN,"Illumina, Inc.",Health Care,Life Sciences Tools & Services,Large,Non-Tech
+INCY,Incyte,Health Care,Biotechnology,Large,Non-Tech
+IR,Ingersoll Rand,Industrials,Industrial Machinery & Supplies & Components,Large,Non-Tech
+PODD,Insulet Corporation,Health Care,Health Care Equipment,Large,Non-Tech
+INTC,Intel,Information Technology,Semiconductors,Large,Tech
+IBKR,Interactive Brokers,Financials,Investment Banking & Brokerage,Large,Non-Tech
+ICE,Intercontinental Exchange,Financials,Financial Exchanges & Data,Large,Non-Tech
+IFF,International Flavors & Fragrances,Materials,Specialty Chemicals,Large,Non-Tech
+IP,International Paper,Materials,Paper & Plastic Packaging Products & Materials,Large,Non-Tech
+INTU,Intuit,Information Technology,Application Software,Large,Tech
+ISRG,Intuitive Surgical,Health Care,Health Care Equipment,Large,Non-Tech
+IVZ,Invesco,Financials,Asset Management & Custody Banks,Large,Non-Tech
+INVH,Invitation Homes,Real Estate,Single-Family Residential REITs,Large,Non-Tech
+IQV,IQVIA,Health Care,Life Sciences Tools & Services,Large,Non-Tech
+IRM,Iron Mountain,Real Estate,Other Specialized REITs,Large,Non-Tech
+JBHT,J.B. Hunt,Industrials,Cargo Ground Transportation,Large,Non-Tech
+JBL,Jabil,Information Technology,Electronic Manufacturing Services,Large,Tech
+JKHY,Jack Henry & Associates,Financials,Transaction & Payment Processing Services,Large,Non-Tech
+J,Jacobs Solutions,Industrials,Construction & Engineering,Large,Non-Tech
+JNJ,Johnson & Johnson,Health Care,Pharmaceuticals,Large,Non-Tech
+JCI,Johnson Controls,Industrials,Building Products,Large,Non-Tech
+JPM,JPMorgan Chase,Financials,Diversified Banks,Large,Non-Tech
+KVUE,Kenvue,Consumer Staples,Personal Care Products,Large,Non-Tech
+KDP,Keurig Dr Pepper,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,Large,Non-Tech
+KEY,KeyCorp,Financials,Regional Banks,Large,Non-Tech
+KEYS,Keysight Technologies,Information Technology,Electronic Equipment & Instruments,Large,Tech
+KMB,Kimberly-Clark,Consumer Staples,Household Products,Large,Non-Tech
+KIM,Kimco Realty,Real Estate,Retail REITs,Large,Non-Tech
+KMI,Kinder Morgan,Energy,Oil & Gas Storage & Transportation,Large,Non-Tech
+KKR,KKR & Co.,Financials,Asset Management & Custody Banks,Large,Non-Tech
+KLAC,KLA Corporation,Information Technology,Semiconductor Materials & Equipment,Large,Tech
+KHC,Kraft Heinz,Consumer Staples,Packaged Foods & Meats,Large,Non-Tech
+KR,Kroger,Consumer Staples,Food Retail,Large,Non-Tech
+LHX,L3Harris,Industrials,Aerospace & Defense,Large,Non-Tech
+LH,Labcorp,Health Care,Health Care Services,Large,Non-Tech
+LRCX,Lam Research,Information Technology,Semiconductor Materials & Equipment,Large,Tech
+LVS,Las Vegas Sands,Consumer Discretionary,Casinos & Gaming,Large,Non-Tech
+LDOS,Leidos,Industrials,Diversified Support Services,Large,Non-Tech
+LEN,Lennar,Consumer Discretionary,Homebuilding,Large,Non-Tech
+LII,Lennox International,Industrials,Building Products,Large,Non-Tech
+LLY,Lilly (Eli),Health Care,Pharmaceuticals,Large,Non-Tech
+LIN,Linde plc,Materials,Industrial Gases,Large,Non-Tech
+LYV,Live Nation Entertainment,Communication Services,Movies & Entertainment,Large,Non-Tech
+LMT,Lockheed Martin,Industrials,Aerospace & Defense,Large,Non-Tech
+L,Loews Corporation,Financials,Multi-line Insurance,Large,Non-Tech
+LOW,Lowe's,Consumer Discretionary,Home Improvement Retail,Large,Non-Tech
+LULU,Lululemon Athletica,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",Large,Non-Tech
+LITE,Lumentum,Information Technology,Communications Equipment,Large,Tech
+LYB,LyondellBasell,Materials,Specialty Chemicals,Large,Non-Tech
+MTB,M&T Bank,Financials,Regional Banks,Large,Non-Tech
+MPC,Marathon Petroleum,Energy,Oil & Gas Refining & Marketing,Large,Non-Tech
+MAR,Marriott International,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",Large,Non-Tech
+MRSH,Marsh McLennan,Financials,Insurance Brokers,Large,Non-Tech
+MLM,Martin Marietta Materials,Materials,Construction Materials,Large,Non-Tech
+MRVL,Marvell Technology,Information Technology,Semiconductors,Large,Tech
+MAS,Masco,Industrials,Building Products,Large,Non-Tech
+MA,Mastercard,Financials,Transaction & Payment Processing Services,Large,Non-Tech
+MKC,McCormick & Company,Consumer Staples,Packaged Foods & Meats,Large,Non-Tech
+MCD,McDonald's,Consumer Discretionary,Restaurants,Large,Non-Tech
+MCK,McKesson Corporation,Health Care,Health Care Distributors,Large,Non-Tech
+MDT,Medtronic,Health Care,Health Care Equipment,Large,Non-Tech
+MRK,Merck & Co.,Health Care,Pharmaceuticals,Large,Non-Tech
+META,Meta Platforms,Communication Services,Interactive Media & Services,Large,Tech
+MET,MetLife,Financials,Life & Health Insurance,Large,Non-Tech
+MTD,Mettler Toledo,Health Care,Life Sciences Tools & Services,Large,Non-Tech
+MGM,MGM Resorts,Consumer Discretionary,Casinos & Gaming,Large,Non-Tech
+MCHP,Microchip Technology,Information Technology,Semiconductors,Large,Tech
+MU,Micron Technology,Information Technology,Semiconductors,Large,Tech
+MSFT,Microsoft,Information Technology,Systems Software,Large,Tech
+MAA,Mid-America Apartment Communities,Real Estate,Multi-Family Residential REITs,Large,Non-Tech
+MRNA,Moderna,Health Care,Biotechnology,Large,Non-Tech
+MDLZ,Mondelez International,Consumer Staples,Packaged Foods & Meats,Large,Non-Tech
+MPWR,Monolithic Power Systems,Information Technology,Semiconductors,Large,Tech
+MNST,Monster Beverage,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,Large,Non-Tech
+MCO,Moody's Corporation,Financials,Financial Exchanges & Data,Large,Non-Tech
+MS,Morgan Stanley,Financials,Investment Banking & Brokerage,Large,Non-Tech
+MOS,Mosaic Company (The),Materials,Fertilizers & Agricultural Chemicals,Large,Non-Tech
+MSI,Motorola Solutions,Information Technology,Communications Equipment,Large,Tech
+MSCI,MSCI,Financials,Financial Exchanges & Data,Large,Non-Tech
+NDAQ,"Nasdaq, Inc.",Financials,Financial Exchanges & Data,Large,Non-Tech
+NTAP,NetApp,Information Technology,"Technology Hardware, Storage & Peripherals",Large,Tech
+NFLX,Netflix,Communication Services,Movies & Entertainment,Large,Non-Tech
+NEM,Newmont,Materials,Gold,Large,Non-Tech
+NWSA,News Corp (Class A),Communication Services,Publishing,Large,Non-Tech
+NWS,News Corp (Class B),Communication Services,Publishing,Large,Non-Tech
+NEE,NextEra Energy,Utilities,Multi-Utilities,Large,Non-Tech
+NKE,"Nike, Inc.",Consumer Discretionary,"Apparel, Accessories & Luxury Goods",Large,Non-Tech
+NI,NiSource,Utilities,Multi-Utilities,Large,Non-Tech
+NDSN,Nordson Corporation,Industrials,Industrial Machinery & Supplies & Components,Large,Non-Tech
+NSC,Norfolk Southern,Industrials,Rail Transportation,Large,Non-Tech
+NTRS,Northern Trust,Financials,Asset Management & Custody Banks,Large,Non-Tech
+NOC,Northrop Grumman,Industrials,Aerospace & Defense,Large,Non-Tech
+NCLH,Norwegian Cruise Line Holdings,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",Large,Non-Tech
+NRG,NRG Energy,Utilities,Independent Power Producers & Energy Traders,Large,Non-Tech
+NUE,Nucor,Materials,Steel,Large,Non-Tech
+NVDA,Nvidia,Information Technology,Semiconductors,Large,Tech
+NVR,"NVR, Inc.",Consumer Discretionary,Homebuilding,Large,Non-Tech
+NXPI,NXP Semiconductors,Information Technology,Semiconductors,Large,Tech
+ORLY,O'Reilly Automotive,Consumer Discretionary,Automotive Retail,Large,Non-Tech
+OXY,Occidental Petroleum,Energy,Oil & Gas Exploration & Production,Large,Non-Tech
+ODFL,Old Dominion,Industrials,Cargo Ground Transportation,Large,Non-Tech
+OMC,Omnicom Group,Communication Services,Advertising,Large,Non-Tech
+ON,ON Semiconductor,Information Technology,Semiconductors,Large,Tech
+OKE,Oneok,Energy,Oil & Gas Storage & Transportation,Large,Non-Tech
+ORCL,Oracle Corporation,Information Technology,Application Software,Large,Tech
+OTIS,Otis Worldwide,Industrials,Industrial Machinery & Supplies & Components,Large,Non-Tech
+PCAR,Paccar,Industrials,Construction Machinery & Heavy Transportation Equipment,Large,Non-Tech
+PKG,Packaging Corporation of America,Materials,Paper & Plastic Packaging Products & Materials,Large,Non-Tech
+PLTR,Palantir Technologies,Information Technology,Application Software,Large,Tech
+PANW,Palo Alto Networks,Information Technology,Systems Software,Large,Tech
+PSKY,Paramount Skydance Corporation,Communication Services,Movies & Entertainment,Large,Non-Tech
+PH,Parker Hannifin,Industrials,Industrial Machinery & Supplies & Components,Large,Non-Tech
+PAYX,Paychex,Industrials,Human Resource & Employment Services,Large,Non-Tech
+PYPL,PayPal,Financials,Transaction & Payment Processing Services,Large,Non-Tech
+PNR,Pentair,Industrials,Industrial Machinery & Supplies & Components,Large,Non-Tech
+PEP,PepsiCo,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,Large,Non-Tech
+PFE,Pfizer,Health Care,Pharmaceuticals,Large,Non-Tech
+PCG,PG&E Corporation,Utilities,Multi-Utilities,Large,Non-Tech
+PM,Philip Morris International,Consumer Staples,Tobacco,Large,Non-Tech
+PSX,Phillips 66,Energy,Oil & Gas Refining & Marketing,Large,Non-Tech
+PNW,Pinnacle West Capital,Utilities,Multi-Utilities,Large,Non-Tech
+PNC,PNC Financial Services,Financials,Diversified Banks,Large,Non-Tech
+PPG,PPG Industries,Materials,Specialty Chemicals,Large,Non-Tech
+PPL,PPL Corporation,Utilities,Electric Utilities,Large,Non-Tech
+PFG,Principal Financial Group,Financials,Life & Health Insurance,Large,Non-Tech
+PG,Procter & Gamble,Consumer Staples,Personal Care Products,Large,Non-Tech
+PGR,Progressive Corporation,Financials,Property & Casualty Insurance,Large,Non-Tech
+PLD,Prologis,Real Estate,Industrial REITs,Large,Non-Tech
+PRU,Prudential Financial,Financials,Life & Health Insurance,Large,Non-Tech
+PEG,Public Service Enterprise Group,Utilities,Electric Utilities,Large,Non-Tech
+PTC,PTC Inc.,Information Technology,Application Software,Large,Tech
+PSA,Public Storage,Real Estate,Self-Storage REITs,Large,Non-Tech
+PHM,PulteGroup,Consumer Discretionary,Homebuilding,Large,Non-Tech
+PWR,Quanta Services,Industrials,Construction & Engineering,Large,Non-Tech
+QCOM,Qualcomm,Information Technology,Semiconductors,Large,Tech
+DGX,Quest Diagnostics,Health Care,Health Care Services,Large,Non-Tech
+Q,Qnity Electronics,Information Technology,Semiconductor Materials & Equipment,Large,Tech
+RL,Ralph Lauren Corporation,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",Large,Non-Tech
+RJF,Raymond James Financial,Financials,Investment Banking & Brokerage,Large,Non-Tech
+RDDT,Reddit,Communication Services,Interactive Media & Services,Large,Tech
+RTX,RTX Corporation,Industrials,Aerospace & Defense,Large,Non-Tech
+O,Realty Income,Real Estate,Retail REITs,Large,Non-Tech
+REG,Regency Centers,Real Estate,Retail REITs,Large,Non-Tech
+REGN,Regeneron Pharmaceuticals,Health Care,Biotechnology,Large,Non-Tech
+RF,Regions Financial Corporation,Financials,Regional Banks,Large,Non-Tech
+RSG,Republic Services,Industrials,Environmental & Facilities Services,Large,Non-Tech
+RMD,ResMed|,Health Care,Health Care Equipment,Large,Non-Tech
+RVTY,Revvity,Health Care,Health Care Equipment,Large,Non-Tech
+HOOD,Robinhood Markets,Financials,Investment Banking & Brokerage,Large,Non-Tech
+ROK,Rockwell Automation,Industrials,Electrical Components & Equipment,Large,Non-Tech
+ROL,"Rollins, Inc.",Industrials,Environmental & Facilities Services,Large,Non-Tech
+ROP,Roper Technologies,Information Technology,Electronic Equipment & Instruments,Large,Tech
+ROST,Ross Stores,Consumer Discretionary,Apparel Retail,Large,Non-Tech
+RCL,Royal Caribbean Group,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",Large,Non-Tech
+SPGI,S&P Global,Financials,Financial Exchanges & Data,Large,Non-Tech
+CRM,Salesforce,Information Technology,Application Software,Large,Tech
+SNDK,Sandisk,Information Technology,"Technology Hardware, Storage & Peripherals",Large,Tech
+SBAC,SBA Communications,Real Estate,Telecom Tower REITs,Large,Non-Tech
+SLB,Schlumberger,Energy,Oil & Gas Equipment & Services,Large,Non-Tech
+STX,Seagate Technology,Information Technology,"Technology Hardware, Storage & Peripherals",Large,Tech
+SRE,Sempra,Utilities,Multi-Utilities,Large,Non-Tech
+NOW,ServiceNow,Information Technology,Systems Software,Large,Tech
+SHW,Sherwin-Williams,Materials,Specialty Chemicals,Large,Non-Tech
+SPG,Simon Property Group,Real Estate,Retail REITs,Large,Non-Tech
+SWKS,Skyworks Solutions,Information Technology,Semiconductors,Large,Tech
+SJM,J.M. Smucker Company (The),Consumer Staples,Packaged Foods & Meats,Large,Non-Tech
+SW,Smurfit Westrock,Materials,Paper & Plastic Packaging Products & Materials,Large,Non-Tech
+SNA,Snap-on,Industrials,Industrial Machinery & Supplies & Components,Large,Non-Tech
+SOLV,Solventum,Health Care,Health Care Technology,Large,Non-Tech
+SO,Southern Company,Utilities,Electric Utilities,Large,Non-Tech
+LUV,Southwest Airlines,Industrials,Passenger Airlines,Large,Non-Tech
+SWK,Stanley Black & Decker,Industrials,Industrial Machinery & Supplies & Components,Large,Non-Tech
+SBUX,Starbucks,Consumer Discretionary,Restaurants,Large,Non-Tech
+STT,State Street Corporation,Financials,Asset Management & Custody Banks,Large,Non-Tech
+STLD,Steel Dynamics,Materials,Steel,Large,Non-Tech
+STE,Steris,Health Care,Health Care Equipment,Large,Non-Tech
+SYK,Stryker Corporation,Health Care,Health Care Equipment,Large,Non-Tech
+SMCI,Supermicro,Information Technology,"Technology Hardware, Storage & Peripherals",Large,Tech
+SYF,Synchrony Financial,Financials,Consumer Finance,Large,Non-Tech
+SNPS,Synopsys,Information Technology,Application Software,Large,Tech
+SYY,Sysco,Consumer Staples,Food Distributors,Large,Non-Tech
+TMUS,T-Mobile US,Communication Services,Wireless Telecommunication Services,Large,Non-Tech
+TROW,T. Rowe Price,Financials,Asset Management & Custody Banks,Large,Non-Tech
+TTWO,Take-Two Interactive,Communication Services,Interactive Home Entertainment,Large,Tech
+TPR,"Tapestry, Inc.",Consumer Discretionary,"Apparel, Accessories & Luxury Goods",Large,Non-Tech
+TRGP,Targa Resources,Energy,Oil & Gas Storage & Transportation,Large,Non-Tech
+TGT,Target Corporation,Consumer Staples,Consumer Staples Merchandise Retail,Large,Non-Tech
+TEL,TE Connectivity,Information Technology,Electronic Manufacturing Services,Large,Tech
+TDY,Teledyne Technologies,Information Technology,Electronic Equipment & Instruments,Large,Tech
+TER,Teradyne,Information Technology,Semiconductor Materials & Equipment,Large,Tech
+TSLA,"Tesla, Inc.",Consumer Discretionary,Automobile Manufacturers,Large,Non-Tech
+TXN,Texas Instruments,Information Technology,Semiconductors,Large,Tech
+TPL,Texas Pacific Land Corporation,Energy,Oil & Gas Exploration & Production,Large,Non-Tech
+TXT,Textron,Industrials,Aerospace & Defense,Large,Non-Tech
+TMO,Thermo Fisher Scientific,Health Care,Life Sciences Tools & Services,Large,Non-Tech
+TJX,TJX Companies,Consumer Discretionary,Apparel Retail,Large,Non-Tech
+TKO,TKO Group Holdings,Communication Services,Movies & Entertainment,Large,Non-Tech
+TSCO,Tractor Supply,Consumer Discretionary,Other Specialty Retail,Large,Non-Tech
+TT,Trane Technologies,Industrials,Building Products,Large,Non-Tech
+TDG,TransDigm Group,Industrials,Aerospace & Defense,Large,Non-Tech
+TRV,Travelers Companies (The),Financials,Property & Casualty Insurance,Large,Non-Tech
+TRMB,Trimble Inc.,Information Technology,Application Software,Large,Tech
+TFC,Truist Financial,Financials,Diversified Banks,Large,Non-Tech
+TYL,Tyler Technologies,Information Technology,Application Software,Large,Tech
+TSN,Tyson Foods,Consumer Staples,Packaged Foods & Meats,Large,Non-Tech
+USB,U.S. Bancorp,Financials,Diversified Banks,Large,Non-Tech
+UBER,Uber,Industrials,Passenger Ground Transportation,Large,Non-Tech
+UDR,"UDR, Inc.",Real Estate,Multi-Family Residential REITs,Large,Non-Tech
+ULTA,Ulta Beauty,Consumer Discretionary,Other Specialty Retail,Large,Non-Tech
+UNP,Union Pacific Corporation,Industrials,Rail Transportation,Large,Non-Tech
+UAL,United Airlines Holdings,Industrials,Passenger Airlines,Large,Non-Tech
+UPS,United Parcel Service,Industrials,Air Freight & Logistics,Large,Non-Tech
+URI,United Rentals,Industrials,Trading Companies & Distributors,Large,Non-Tech
+UNH,UnitedHealth Group,Health Care,Managed Health Care,Large,Non-Tech
+UHS,Universal Health Services,Health Care,Health Care Facilities,Large,Non-Tech
+VLO,Valero Energy,Energy,Oil & Gas Refining & Marketing,Large,Non-Tech
+VEEV,Veeva Systems,Health Care,Health Care Technology,Large,Non-Tech
+VTR,Ventas,Real Estate,Health Care REITs,Large,Non-Tech
+VLTO,Veralto,Industrials,Environmental & Facilities Services,Large,Non-Tech
+VRSN,Verisign,Information Technology,Internet Services & Infrastructure,Large,Tech
+VRSK,Verisk Analytics,Industrials,Research & Consulting Services,Large,Non-Tech
+VZ,Verizon,Communication Services,Integrated Telecommunication Services,Large,Non-Tech
+VRTX,Vertex Pharmaceuticals,Health Care,Biotechnology,Large,Non-Tech
+VRT,Vertiv,Industrials,Electrical Components & Equipment,Large,Non-Tech
+VTRS,Viatris,Health Care,Pharmaceuticals,Large,Non-Tech
+VICI,Vici Properties,Real Estate,Hotel & Resort REITs,Large,Non-Tech
+V,Visa Inc.,Financials,Transaction & Payment Processing Services,Large,Non-Tech
+VST,Vistra Corp.,Utilities,Electric Utilities,Large,Non-Tech
+VMRK,Vivmark Residential,Real Estate,Multi-Family Residential REITs,Large,Non-Tech
+VMC,Vulcan Materials Company,Materials,Construction Materials,Large,Non-Tech
+WRB,W. R. Berkley Corporation,Financials,Property & Casualty Insurance,Large,Non-Tech
+GWW,W. W. Grainger,Industrials,Industrial Machinery & Supplies & Components,Large,Non-Tech
+WAB,Wabtec,Industrials,Construction Machinery & Heavy Transportation Equipment,Large,Non-Tech
+WMT,Walmart,Consumer Staples,Consumer Staples Merchandise Retail,Large,Non-Tech
+DIS,Walt Disney Company (The),Communication Services,Movies & Entertainment,Large,Non-Tech
+WBD,Warner Bros. Discovery,Communication Services,Broadcasting,Large,Non-Tech
+WM,Waste Management,Industrials,Environmental & Facilities Services,Large,Non-Tech
+WAT,Waters Corporation,Health Care,Life Sciences Tools & Services,Large,Non-Tech
+WEC,WEC Energy Group,Utilities,Electric Utilities,Large,Non-Tech
+WFC,Wells Fargo,Financials,Diversified Banks,Large,Non-Tech
+WELL,Welltower,Real Estate,Health Care REITs,Large,Non-Tech
+WST,West Pharmaceutical Services,Health Care,Health Care Supplies,Large,Non-Tech
+WDC,Western Digital,Information Technology,"Technology Hardware, Storage & Peripherals",Large,Tech
+WY,Weyerhaeuser,Real Estate,Timber REITs,Large,Non-Tech
+WSM,"Williams-Sonoma, Inc.",Consumer Discretionary,Homefurnishing Retail,Large,Non-Tech
+WMB,Williams Companies,Energy,Oil & Gas Storage & Transportation,Large,Non-Tech
+WTW,Willis Towers Watson,Financials,Insurance Brokers,Large,Non-Tech
+WDAY,"Workday, Inc.",Information Technology,Application Software,Large,Tech
+WYNN,Wynn Resorts,Consumer Discretionary,Casinos & Gaming,Large,Non-Tech
+XEL,Xcel Energy,Utilities,Multi-Utilities,Large,Non-Tech
+XYL,Xylem Inc.,Industrials,Industrial Machinery & Supplies & Components,Large,Non-Tech
+YUM,Yum! Brands,Consumer Discretionary,Restaurants,Large,Non-Tech
+ZBRA,Zebra Technologies,Information Technology,Electronic Equipment & Instruments,Large,Tech
+ZBH,Zimmer Biomet,Health Care,Health Care Equipment,Large,Non-Tech
+ZTS,Zoetis,Health Care,Pharmaceuticals,Large,Non-Tech
+AA,Alcoa,Materials,Aluminum,Mid,Non-Tech
+AAL,American Airlines Group,Industrials,Passenger Airlines,Mid,Non-Tech
+AAON,AAON,Industrials,Building Products,Mid,Non-Tech
+ACI,Albertsons,Consumer Staples,Food Retail,Mid,Non-Tech
+ACM,AECOM,Industrials,Construction & Engineering,Mid,Non-Tech
+ADC,Agree Realty,Real Estate,Retail REITs,Mid,Non-Tech
+AEIS,Advanced Energy,Information Technology,Semiconductor Materials & Equipment,Mid,Tech
+AFG,American Financial Group,Financials,Multi-line Insurance,Mid,Non-Tech
+AGCO,AGCO,Industrials,Agricultural & Farm Machinery,Mid,Non-Tech
+AHR,American Healthcare REIT,Real Estate,Health Care REITs,Mid,Non-Tech
+AIT,Applied Industrial Technologies,Industrials,Trading Companies & Distributors,Mid,Non-Tech
+ALGM,Allegro MicroSystems,Information Technology,Semiconductors,Mid,Tech
+ALK,Alaska Air Group,Industrials,Passenger Airlines,Mid,Non-Tech
+ALLY,Ally Financial,Financials,Consumer Finance,Mid,Non-Tech
+ALSN,Allison Transmission,Industrials,Construction Machinery & Heavy Transportation Equipment,Mid,Non-Tech
+ALV,Autoliv,Consumer Discretionary,Automotive Parts & Equipment,Mid,Non-Tech
+AM,Antero Midstream,Energy,Oil & Gas Storage & Transportation,Mid,Non-Tech
+AMG,Affiliated Managers Group,Financials,Asset Management & Custody Banks,Mid,Non-Tech
+AMH,American Homes 4 Rent,Real Estate,Single-Family Residential REITs,Mid,Non-Tech
+AMKR,Amkor Technology,Information Technology,Semiconductors,Mid,Tech
+AN,AutoNation,Consumer Discretionary,Automotive Retail,Mid,Non-Tech
+ANF,Abercrombie & Fitch,Consumer Discretionary,Apparel Retail,Mid,Non-Tech
+APG,APi Group,Industrials,Construction & Engineering,Mid,Non-Tech
+APPF,AppFolio,Information Technology,Application Software,Mid,Tech
+AR,Antero Resources,Energy,Oil & Gas Exploration & Production,Mid,Non-Tech
+ARMK,Aramark,Consumer Discretionary,Distributors,Mid,Non-Tech
+ARW,Arrow Electronics,Information Technology,Technology Distributors,Mid,Tech
+ARWR,Arrowhead Pharmaceuticals,Health Care,Biotechnology,Mid,Non-Tech
+ASB,Associated Bank,Financials,Regional Banks,Mid,Non-Tech
+ASH,Ashland Global,Materials,Diversified Chemicals,Mid,Non-Tech
+ATI,ATI Inc.,Industrials,Aerospace & Defense,Mid,Non-Tech
+ATR,AptarGroup,Materials,"Metal, Glass & Plastic Containers",Mid,Non-Tech
+AVAV,AeroVironment,Industrials,Aerospace & Defense,Mid,Non-Tech
+AVNT,Avient,Materials,Specialty Chemicals,Mid,Non-Tech
+AVT,Avnet,Information Technology,Technology Distributors,Mid,Tech
+AVTR,Avantor,Health Care,Life Sciences Tools & Services,Mid,Non-Tech
+AXTA,Axalta,Materials,Specialty Chemicals,Mid,Non-Tech
+AYI,Acuity Brands,Industrials,Electrical Components & Equipment,Mid,Non-Tech
+BAH,Booz Allen Hamilton,Industrials,Research & Consulting Services,Mid,Non-Tech
+BBWI,"Bath & Body Works, Inc.",Consumer Discretionary,Other Specialty Retail,Mid,Non-Tech
+BC,Brunswick,Consumer Discretionary,Leisure Products,Mid,Non-Tech
+BCO,Brink's,Industrials,Security & Alarm Services,Mid,Non-Tech
+BDC,Belden Inc.,Information Technology,Electronic Components,Mid,Tech
+BHF,Brighthouse Financial,Financials,Life & Health Insurance,Mid,Non-Tech
+BILL,Bill Holdings,Information Technology,Application Software,Mid,Tech
+BIO,Bio-Rad Laboratories,Health Care,Life Sciences Tools & Services,Mid,Non-Tech
+BJ,BJ's Wholesale Club,Consumer Staples,Consumer Staples Merchandise Retail,Mid,Non-Tech
+BKH,Black Hills Corporation,Utilities,Multi-Utilities,Mid,Non-Tech
+BMRN,BioMarin Pharmaceutical,Health Care,Biotechnology,Mid,Non-Tech
+BRKR,Bruker,Health Care,Health Care Equipment,Mid,Non-Tech
+BROS,Dutch Bros Inc.,Consumer Discretionary,Restaurants,Mid,Non-Tech
+BRX,Brixmor Property Group,Real Estate,Retail REITs,Mid,Non-Tech
+BSY,Bentley Systems,Information Technology,Application Software,Mid,Tech
+BTSG,BrightSpring Health Services,Health Care,Health Care Services,Mid,Non-Tech
+BURL,Burlington Stores,Consumer Discretionary,Apparel Retail,Mid,Non-Tech
+BWA,BorgWarner,Consumer Discretionary,Automotive Parts & Equipment,Mid,Non-Tech
+BWXT,BWX Technologies,Industrials,Aerospace & Defense,Mid,Non-Tech
+BYD,Boyd Gaming,Consumer Discretionary,Casinos & Gaming,Mid,Non-Tech
+CACI,CACI International,Industrials,Diversified Support Services,Mid,Non-Tech
+CAR,Avis Budget Group,Industrials,Passenger Ground Transportation,Mid,Non-Tech
+CART,Maplebear Inc.,Consumer Staples,Food Retail,Mid,Non-Tech
+CAVA,Cava Group,Consumer Discretionary,Restaurants,Mid,Non-Tech
+CBSH,Commerce Bancshares,Financials,Regional Banks,Mid,Non-Tech
+CBT,Cabot Corp,Materials,Diversified Chemicals,Mid,Non-Tech
+CCK,Crown Holdings,Materials,Paper & Plastic Packaging Products & Materials,Mid,Non-Tech
+CDE,Coeur Mining,Materials,Gold,Mid,Non-Tech
+CDP,COPT Defense Properties,Real Estate,Office REITs,Mid,Non-Tech
+CELH,Celsius Holdings,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,Mid,Non-Tech
+CFR,Frost Bank,Financials,Regional Banks,Mid,Non-Tech
+CG,Carlyle Group (The),Financials,Asset Management & Custody Banks,Mid,Non-Tech
+CGNX,Cognex,Information Technology,Electronic Equipment & Instruments,Mid,Tech
+CHDN,Churchill Downs Inc.,Consumer Discretionary,Casinos & Gaming,Mid,Non-Tech
+CHE,Chemed Corp.,Health Care,Health Care Services,Mid,Non-Tech
+CHH,Choice Hotels,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",Mid,Non-Tech
+CHRD,Chord Energy,Energy,Oil & Gas Exploration & Production,Mid,Non-Tech
+CHWY,Chewy,Consumer Discretionary,Other Specialty Retail,Mid,Non-Tech
+CLF,Cleveland-Cliffs,Materials,Steel,Mid,Non-Tech
+CLH,Clean Harbors,Industrials,Environmental & Facilities Services,Mid,Non-Tech
+CMC,Commercial Metals,Materials,Steel,Mid,Non-Tech
+CNH,CNH Industrial,Industrials,Agricultural & Farm Machinery,Mid,Non-Tech
+CNM,Core & Main,Industrials,Trading Companies & Distributors,Mid,Non-Tech
+CNO,CNO Financial Group,Financials,Life & Health Insurance,Mid,Non-Tech
+CNX,CNX Resources,Energy,Oil & Gas Exploration & Production,Mid,Non-Tech
+COKE,Coca-Cola Consolidated,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,Mid,Non-Tech
+COLB,Columbia Banking System,Financials,Regional Banks,Mid,Non-Tech
+COLM,Columbia Sportswear,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",Mid,Non-Tech
+CPRI,Capri Holdings,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",Mid,Non-Tech
+CR,Crane,Industrials,Industrial Machinery & Supplies & Components,Mid,Non-Tech
+CRBG,Corebridge Financial,Financials,Asset Management & Custody Banks,Mid,Non-Tech
+CROX,Crocs,Consumer Discretionary,Footwear,Mid,Non-Tech
+CRS,Carpenter Technology,Industrials,Industrial Machinery & Supplies & Components,Mid,Non-Tech
+CRUS,Cirrus Logic,Information Technology,Semiconductors,Mid,Tech
+CSL,Carlisle Companies,Industrials,Industrial Conglomerates,Mid,Non-Tech
+CTRE,CareTrust REIT,Real Estate,Health Care REITs,Mid,Non-Tech
+CUBE,CubeSmart,Real Estate,Industrial REITs,Mid,Non-Tech
+CUZ,Cousins Properties,Real Estate,Office REITs,Mid,Non-Tech
+CVLT,CommVault Systems,Information Technology,Systems Software,Mid,Tech
+CW,Curtiss-Wright,Industrials,Aerospace & Defense,Mid,Non-Tech
+CXT,Crane NXT,Information Technology,Electronic Equipment & Instruments,Mid,Tech
+CYTK,Cytokinetics,Health Care,Biotechnology,Mid,Non-Tech
+DAR,Darling Ingredients,Consumer Staples,Agricultural Products & Services,Mid,Non-Tech
+DBX,Dropbox,Information Technology,Application Software,Mid,Tech
+DCI,Donaldson Company,Industrials,Industrial Machinery & Supplies & Components,Mid,Non-Tech
+DINO,HF Sinclair,Energy,Oil & Gas Refining & Marketing,Mid,Non-Tech
+DKS,Dick's Sporting Goods,Consumer Discretionary,Specialty Stores,Mid,Non-Tech
+DLB,Dolby,Information Technology,Application Software,Mid,Tech
+DOCN,DigitalOcean,Information Technology,Internet Services & Infrastructure,Mid,Tech
+DOCS,Doximity,Health Care,Health Care Technology,Mid,Non-Tech
+DOCU,Docusign,Information Technology,Application Software,Mid,Tech
+DT,Dynatrace,Information Technology,Application Software,Mid,Tech
+DTM,DT Midstream,Energy,Oil & Gas Storage & Transportation,Mid,Non-Tech
+DUOL,Duolingo,Consumer Discretionary,Education Services,Mid,Non-Tech
+DY,Dycom Industries,Industrials,Construction & Engineering,Mid,Non-Tech
+EEFT,Euronet Worldwide,Financials,Transaction & Payment Processing Services,Mid,Non-Tech
+EGP,EastGroup Properties,Real Estate,Industrial REITs,Mid,Non-Tech
+EHC,Encompass Health,Health Care,Health Care Facilities,Mid,Non-Tech
+ELAN,Elanco,Health Care,Pharmaceuticals,Mid,Non-Tech
+ELF,e.l.f. Beauty,Consumer Staples,Personal Care Products,Mid,Non-Tech
+ELS,Equity Lifestyle Properties,Real Estate,Single-Family Residential REITs,Mid,Non-Tech
+ENS,EnerSys,Industrials,Electrical Components & Equipment,Mid,Non-Tech
+ENSG,Ensign Group,Health Care,Health Care Facilities,Mid,Non-Tech
+ENTG,Entegris,Information Technology,Semiconductor Materials & Equipment,Mid,Tech
+EPR,EPR Properties,Real Estate,Other Specialized REITs,Mid,Non-Tech
+EQH,Equitable Holdings,Financials,Diversified Financial Services,Mid,Non-Tech
+ESAB,ESAB,Industrials,Industrial Machinery & Supplies & Components,Mid,Non-Tech
+ESNT,Essent Group Ltd.,Financials,Commercial & Residential Mortgage Finance,Mid,Non-Tech
+EVR,Evercore,Financials,Investment Banking & Brokerage,Mid,Non-Tech
+EWBC,East West Bancorp,Financials,Regional Banks,Mid,Non-Tech
+EXEL,Exelixis,Health Care,Biotechnology,Mid,Non-Tech
+EXLS,EXL Service,Industrials,Data Processing & Outsourced Services,Mid,Non-Tech
+EXP,Eagle Materials,Materials,Construction Materials,Mid,Non-Tech
+EXPO,"Exponent, Inc.",Industrials,Research & Consulting Services,Mid,Non-Tech
+FAF,First American Financial Corporation,Financials,Property & Casualty Insurance,Mid,Non-Tech
+FBIN,Fortune Brands Innovations,Industrials,Building Products,Mid,Non-Tech
+FCFS,FirstCash,Financials,Consumer Finance,Mid,Non-Tech
+FCN,FTI Consulting,Industrials,Research & Consulting Services,Mid,Non-Tech
+FFIN,First Financial Bankshares,Financials,Regional Banks,Mid,Non-Tech
+FHI,Federated Hermes,Financials,Asset Management & Custody Banks,Mid,Non-Tech
+FHN,First Horizon,Financials,Regional Banks,Mid,Non-Tech
+FIVE,Five Below,Consumer Discretionary,Specialty Stores,Mid,Non-Tech
+FLG,Flagstar Bank,Financials,Regional Banks,Mid,Non-Tech
+FLR,Fluor,Industrials,Construction & Engineering,Mid,Non-Tech
+FLS,Flowserve,Industrials,Industrial Machinery & Supplies & Components,Mid,Non-Tech
+FN,Fabrinet,Information Technology,Electronic Manufacturing Services,Mid,Tech
+FNB,FNB Corporation,Financials,Regional Banks,Mid,Non-Tech
+FND,Floor & Decor,Consumer Discretionary,Home Improvement Retail,Mid,Non-Tech
+FNF,Fidelity National Financial,Financials,Property & Casualty Insurance,Mid,Non-Tech
+FOUR,Shift4,Financials,Transaction & Payment Processing Services,Mid,Non-Tech
+FR,First Industrial Realty Trust,Real Estate,Industrial REITs,Mid,Non-Tech
+FTI,TechnipFMC,Energy,Oil & Gas Equipment & Services,Mid,Non-Tech
+G,Genpact,Industrials,Data Processing & Outsourced Services,Mid,Non-Tech
+GAP,Gap Inc.,Consumer Discretionary,Apparel Retail,Mid,Non-Tech
+GATX,GATX,Industrials,Construction Machinery & Heavy Transportation Equipment,Mid,Non-Tech
+GBCI,Glacier Bancorp,Financials,Regional Banks,Mid,Non-Tech
+GEF,"Greif, Inc.",Materials,"Metal, Glass & Plastic Containers",Mid,Non-Tech
+GGG,Graco Inc.,Industrials,Industrial Machinery & Supplies & Components,Mid,Non-Tech
+GHC,Graham Holdings,Consumer Discretionary,Education Services,Mid,Non-Tech
+GLPI,Gaming and Leisure Properties,Real Estate,Other Specialized REITs,Mid,Non-Tech
+GME,GameStop,Consumer Discretionary,Computer & Electronics Retail,Mid,Non-Tech
+GMED,Globus Medical,Health Care,Health Care Equipment,Mid,Non-Tech
+GNTX,Gentex,Consumer Discretionary,Automotive Parts & Equipment,Mid,Non-Tech
+GPK,Graphic Packaging,Materials,Paper & Plastic Packaging Products & Materials,Mid,Non-Tech
+GWRE,Guidewire Software,Information Technology,Application Software,Mid,Tech
+GXO,GXO Logistics,Industrials,Air Freight & Logistics,Mid,Non-Tech
+H,Hyatt,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",Mid,Non-Tech
+HAE,Haemonetics,Health Care,Health Care Supplies,Mid,Non-Tech
+HALO,Halozyme,Health Care,Biotechnology,Mid,Non-Tech
+HGV,Hilton Grand Vacations,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",Mid,Non-Tech
+HIMS,Hims & Hers Health,Health Care,Health Care Services,Mid,Non-Tech
+HL,Hecla Mining,Materials,Silver,Mid,Non-Tech
+HLI,Houlihan Lokey,Financials,Investment Banking & Brokerage,Mid,Non-Tech
+HLNE,Hamilton Lane,Financials,Asset Management & Custody Banks,Mid,Non-Tech
+HOG,Harley-Davidson,Consumer Discretionary,Motorcycle Manufacturers,Mid,Non-Tech
+HOMB,Home BancShares,Financials,Regional Banks,Mid,Non-Tech
+HQY,HealthEquity,Health Care,Managed Health Care,Mid,Non-Tech
+HR,Healthcare Realty Trust,Real Estate,Health Care REITs,Mid,Non-Tech
+HRB,H&R Block,Consumer Discretionary,Specialized Consumer Services,Mid,Non-Tech
+HWC,Hancock Whitney,Financials,Regional Banks,Mid,Non-Tech
+HXL,Hexcel,Industrials,Aerospace & Defense,Mid,Non-Tech
+IBOC,Intl Bancshares Corp,Financials,Regional Banks,Mid,Non-Tech
+IDA,Idacorp,Utilities,Electric Utilities,Mid,Non-Tech
+IDCC,InterDigital,Information Technology,Communications Equipment,Mid,Tech
+IESC,IES Holdings,Industrials,Construction & Engineering,Mid,Non-Tech
+INGR,Ingredion,Consumer Staples,Agricultural Products & Services,Mid,Non-Tech
+IPGP,IPG Photonics,Information Technology,Electronic Manufacturing Services,Mid,Tech
+IRT,Independence Realty Trust,Real Estate,Multi-Family Residential REITs,Mid,Non-Tech
+ITT,ITT Inc.,Industrials,Industrial Machinery & Supplies & Components,Mid,Non-Tech
+JAZZ,Jazz Pharmaceuticals,Health Care,Pharmaceuticals,Mid,Non-Tech
+JEF,Jefferies,Financials,Multi-Sector Holdings,Mid,Non-Tech
+JLL,Jones Lang LaSalle,Real Estate,Real Estate Services,Mid,Non-Tech
+KBH,KB Home,Consumer Discretionary,Homebuilding,Mid,Non-Tech
+KBR,"KBR, Inc.",Industrials,Diversified Support Services,Mid,Non-Tech
+KD,Kyndryl,Information Technology,IT Consulting & Other Services,Mid,Tech
+KEX,Kirby Corporation,Industrials,Marine Transportation,Mid,Non-Tech
+KNF,Knife River Corporation,Materials,Construction Materials,Mid,Non-Tech
+KNSL,Kinsale Capital Group,Financials,Property & Casualty Insurance,Mid,Non-Tech
+KNX,Knight-Swift,Industrials,Cargo Ground Transportation,Mid,Non-Tech
+KRC,Kilroy Realty Corp,Real Estate,Office REITs,Mid,Non-Tech
+KRG,Kite Realty Group Trust,Real Estate,Retail REITs,Mid,Non-Tech
+KRYS,Krystal Biotech,Health Care,Biotechnology,Mid,Non-Tech
+KTOS,Kratos Defense & Security Solutions,Industrials,Aerospace & Defense,Mid,Non-Tech
+LAD,Lithia Motors,Consumer Discretionary,Automotive Retail,Mid,Non-Tech
+LAMR,Lamar Advertising Company,Real Estate,Other Specialized REITs,Mid,Non-Tech
+LEA,Lear,Consumer Discretionary,Automotive Parts & Equipment,Mid,Non-Tech
+LECO,Lincoln Electric,Industrials,Industrial Machinery & Supplies & Components,Mid,Non-Tech
+LFUS,Littelfuse,Information Technology,Electronic Components,Mid,Tech
+LIVN,LivaNova,Health Care,Health Care Equipment,Mid,Non-Tech
+LNTH,Lantheus Holdings,Health Care,Health Care Supplies,Mid,Non-Tech
+LOPE,Grand Canyon Education,Consumer Discretionary,Education Services,Mid,Non-Tech
+LPX,Louisiana-Pacific,Industrials,Building Products,Mid,Non-Tech
+LSCC,Lattice Semiconductor,Information Technology,Semiconductors,Mid,Tech
+LSTR,Landstar System,Industrials,Cargo Ground Transportation,Mid,Non-Tech
+M,Macy's,Consumer Discretionary,Broadline Retail,Mid,Non-Tech
+MANH,Manhattan Associates,Information Technology,Application Software,Mid,Tech
+MAT,Mattel,Consumer Discretionary,Leisure Products,Mid,Non-Tech
+MEDP,Medpace,Health Care,Life Sciences Tools & Services,Mid,Non-Tech
+MIDD,Middleby,Industrials,Industrial Machinery & Supplies & Components,Mid,Non-Tech
+MKSI,MKS Instruments,Information Technology,Semiconductor Materials & Equipment,Mid,Tech
+MLI,Mueller Industries,Industrials,Industrial Machinery & Supplies & Components,Mid,Non-Tech
+MMS,Maximus Inc.,Industrials,Data Processing & Outsourced Services,Mid,Non-Tech
+MOG-A,Moog Inc.,Industrials,Aerospace & Defense,Mid,Non-Tech
+MOH,Molina Healthcare,Health Care,Managed Health Care,Mid,Non-Tech
+MORN,"Morningstar, Inc.",Financials,Financial Exchanges & Data,Mid,Non-Tech
+MP,MP Materials,Materials,Diversified Metals & Mining,Mid,Non-Tech
+MSA,MSA Safety,Industrials,Office Services & Supplies,Mid,Non-Tech
+MSM,MSC Industrial Direct,Industrials,Trading Companies & Distributors,Mid,Non-Tech
+MTDR,Matador Resources,Energy,Oil & Gas Exploration & Production,Mid,Non-Tech
+MTG,MGIC Investment Corporation,Financials,Reinsurance,Mid,Non-Tech
+MTN,Vail Resorts,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",Mid,Non-Tech
+MTSI,MACOM Technology Solutions,Information Technology,Semiconductors,Mid,Tech
+MTZ,MasTec,Industrials,Construction & Engineering,Mid,Non-Tech
+MUR,Murphy Oil,Energy,Oil & Gas Exploration & Production,Mid,Non-Tech
+MUSA,Murphy USA,Consumer Discretionary,Automotive Retail,Mid,Non-Tech
+MZTI,The Marzetti Company,Consumer Staples,Packaged Foods & Meats,Mid,Non-Tech
+NBIX,Neurocrine Biosciences,Health Care,Biotechnology,Mid,Non-Tech
+NEU,NewMarket Corporation,Materials,Specialty Chemicals,Mid,Non-Tech
+NFG,National Fuel Gas,Utilities,Gas Utilities,Mid,Non-Tech
+NJR,New Jersey Resources,Utilities,Gas Utilities,Mid,Non-Tech
+NLY,Annaly Capital Management,Financials,Mortgage REITs,Mid,Non-Tech
+NNN,NNN Reit,Real Estate,Retail REITs,Mid,Non-Tech
+NOV,NOV Inc.,Energy,Oil & Gas Equipment & Services,Mid,Non-Tech
+NOVT,Novanta,Information Technology,Electronic Equipment & Instruments,Mid,Tech
+NTNX,Nutanix,Information Technology,Systems Software,Mid,Tech
+NVST,Envista Holdings,Health Care,Health Care Supplies,Mid,Non-Tech
+NVT,nVent Electric plc,Industrials,Electrical Components & Equipment,Mid,Non-Tech
+NWE,NorthWestern Energy,Utilities,Multi-Utilities,Mid,Non-Tech
+NXST,Nexstar Media Group,Communication Services,Broadcasting,Mid,Non-Tech
+NXT,Nextpower,Industrials,Electrical Components & Equipment,Mid,Non-Tech
+NYT,New York Times Company,Communication Services,Publishing,Mid,Non-Tech
+OC,Owens Corning,Industrials,Building Products,Mid,Non-Tech
+OGE,OGE Energy,Utilities,Multi-Utilities,Mid,Non-Tech
+OGS,One Gas,Utilities,Gas Utilities,Mid,Non-Tech
+OHI,Omega Healthcare Investors,Real Estate,Health Care REITs,Mid,Non-Tech
+OKTA,"Okta, Inc.",Information Technology,Application Software,Mid,Tech
+OLED,Universal Display,Information Technology,Semiconductors,Mid,Tech
+OLLI,Ollie's Bargain Outlet,Consumer Discretionary,Broadline Retail,Mid,Non-Tech
+OLN,Olin Corporation,Materials,Diversified Chemicals,Mid,Non-Tech
+ONB,Old National Bank,Financials,Regional Banks,Mid,Non-Tech
+ONTO,Onto Innovation,Information Technology,Semiconductor Materials & Equipment,Mid,Tech
+OPCH,Option Care Health,Health Care,Health Care Facilities,Mid,Non-Tech
+ORA,Ormat Technologies,Utilities,Renewable Electricity,Mid,Non-Tech
+ORI,Old Republic International,Financials,Property & Casualty Insurance,Mid,Non-Tech
+OSK,Oshkosh,Industrials,Construction Machinery & Heavy Transportation Equipment,Mid,Non-Tech
+OVV,Ovintiv,Energy,Oil & Gas Exploration & Production,Mid,Non-Tech
+OZK,Bank OZK,Financials,Regional Banks,Mid,Non-Tech
+PAG,Penske Automotive Group,Consumer Discretionary,Automotive Retail,Mid,Non-Tech
+PATH,UiPath,Information Technology,Systems Software,Mid,Tech
+PB,Prosperity Bancshares,Financials,Regional Banks,Mid,Non-Tech
+PBF,PBF Energy,Energy,Oil & Gas Refining & Marketing,Mid,Non-Tech
+PCTY,Paylocity,Industrials,Human Resource & Employment Services,Mid,Non-Tech
+PEGA,Pegasystems,Information Technology,Application Software,Mid,Tech
+PEN,"Penumbra, Inc.",Health Care,Health Care Equipment,Mid,Non-Tech
+PFGC,Performance Food Group,Consumer Staples,Food Distributors,Mid,Non-Tech
+PII,Polaris,Consumer Discretionary,Leisure Products,Mid,Non-Tech
+PINS,Pinterest,Communication Services,Interactive Home Entertainment,Mid,Tech
+PK,Park Hotels & Resorts,Real Estate,Hotel & Resort REITs,Mid,Non-Tech
+PLNT,Planet Fitness,Consumer Discretionary,Leisure Facilities,Mid,Non-Tech
+PNFP,Pinnacle Financial Partners,Financials,Regional Banks,Mid,Non-Tech
+POR,Portland General Electric,Utilities,Electric Utilities,Mid,Non-Tech
+POST,Post Holdings,Consumer Staples,Packaged Foods & Meats,Mid,Non-Tech
+PPC,Pilgrim's Pride,Consumer Staples,Packaged Foods & Meats,Mid,Non-Tech
+PR,Permian Resources,Energy,Oil & Gas Exploration & Production,Mid,Non-Tech
+PRI,Primerica,Financials,Life & Health Insurance,Mid,Non-Tech
+PSN,Parsons Corporation,Industrials,Aerospace & Defense,Mid,Non-Tech
+PVH,PVH Corp.,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",Mid,Non-Tech
+QLYS,Qualys,Information Technology,Systems Software,Mid,Tech
+R,Ryder,Industrials,Cargo Ground Transportation,Mid,Non-Tech
+RBA,RB Global,Industrials,Diversified Support Services,Mid,Non-Tech
+RBC,RBC Bearings,Industrials,Industrial Machinery & Supplies & Components,Mid,Non-Tech
+REXR,Rexford Industrial Realty,Real Estate,Industrial REITs,Mid,Non-Tech
+RGA,Reinsurance Group of America,Financials,Reinsurance,Mid,Non-Tech
+RGEN,Repligen,Health Care,Biotechnology,Mid,Non-Tech
+RGLD,Royal Gold,Materials,Gold,Mid,Non-Tech
+RH,RH,Consumer Discretionary,Homefurnishing Retail,Mid,Non-Tech
+RLI,RLI Corp.,Financials,Property & Casualty Insurance,Mid,Non-Tech
+RMBS,Rambus,Information Technology,Semiconductors,Mid,Tech
+RNR,RenaissanceRe,Financials,Reinsurance,Mid,Non-Tech
+ROIV,Roivant Sciences,Health Care,Biotechnology,Mid,Non-Tech
+ROKU,"Roku, Inc.",Communication Services,Movies & Entertainment,Mid,Non-Tech
+RPM,RPM International,Materials,Specialty Chemicals,Mid,Non-Tech
+RRC,Range Resources,Energy,Oil & Gas Exploration & Production,Mid,Non-Tech
+RRX,Regal Rexnord,Industrials,Electrical Components & Equipment,Mid,Non-Tech
+RS,"Reliance, Inc.",Materials,Steel,Mid,Non-Tech
+RYAN,Ryan Specialty,Financials,Insurance Brokers,Mid,Non-Tech
+RYN,Rayonier,Real Estate,Timber REITs,Mid,Non-Tech
+SAIA,Saia,Industrials,Cargo Ground Transportation,Mid,Non-Tech
+SAIC,Science Applications Intl Corp,Industrials,Diversified Support Services,Mid,Non-Tech
+SAM,Boston Beer Company,Consumer Staples,Brewers,Mid,Non-Tech
+SANM,Sanmina Corporation,Information Technology,Electronic Manufacturing Services,Mid,Tech
+SARO,StandardAero,Industrials,Aerospace & Defense,Mid,Non-Tech
+SBRA,Sabra Health Care REIT,Real Estate,Health Care REITs,Mid,Non-Tech
+SCI,Service Corp Intl,Consumer Discretionary,Specialized Consumer Services,Mid,Non-Tech
+SEIC,SEI Investments Company,Financials,Asset Management & Custody Banks,Mid,Non-Tech
+SF,Stifel,Financials,Investment Banking & Brokerage,Mid,Non-Tech
+SFM,Sprouts Farmers Market,Consumer Staples,Food Retail,Mid,Non-Tech
+SGI,Somnigroup International,Consumer Discretionary,Home Furnishings,Mid,Non-Tech
+SHC,Sotera Health,Health Care,Health Care Services,Mid,Non-Tech
+SIGI,Selective Insurance Group,Financials,Property & Casualty Insurance,Mid,Non-Tech
+SIRI,SiriusXM,Communication Services,Broadcasting,Mid,Non-Tech
+SITM,SiTime,Information Technology,Semiconductors,Mid,Tech
+SLAB,Silicon Labs,Information Technology,Semiconductors,Mid,Tech
+SLGN,Silgan Holdings,Materials,"Metal, Glass & Plastic Containers",Mid,Non-Tech
+SLM,SLM Corp,Financials,Consumer Finance,Mid,Non-Tech
+SMG,Scotts Miracle-Gro Company,Materials,Fertilizers & Agricultural Chemicals,Mid,Non-Tech
+SMTC,Semtech,Information Technology,Semiconductors,Mid,Tech
+SN,SharkNinja,Consumer Discretionary,Household Appliances,Mid,Non-Tech
+SNX,TD Synnex,Information Technology,Technology Distributors,Mid,Tech
+SOLS,Solstice Advanced Materials,Materials,Specialty Chemicals,Mid,Non-Tech
+SON,Sonoco,Materials,Paper & Plastic Packaging Products & Materials,Mid,Non-Tech
+SPXC,SPX Technologies,Industrials,Industrial Machinery & Supplies & Components,Mid,Non-Tech
+SR,Spire,Utilities,Gas Utilities,Mid,Non-Tech
+SSB,South State Bank,Financials,Regional Banks,Mid,Non-Tech
+SSD,Simpson Manufacturing,Industrials,Building Products,Mid,Non-Tech
+ST,Sensata Technologies,Industrials,Electrical Components & Equipment,Mid,Non-Tech
+STAG,STAG Industrial,Real Estate,Industrial REITs,Mid,Non-Tech
+STRL,Sterling Infrastructure,Industrials,Construction & Engineering,Mid,Non-Tech
+STWD,Starwood Property Trust,Financials,Mortgage REITs,Mid,Non-Tech
+SUI,Sun Communities,Real Estate,Single-Family Residential REITs,Mid,Non-Tech
+SWX,Southwest Gas Corp,Utilities,Gas Utilities,Mid,Non-Tech
+SYNA,Synaptics,Information Technology,Semiconductors,Mid,Tech
+TCBI,Texas Capital Bancshares,Financials,Regional Banks,Mid,Non-Tech
+TEX,Terex,Industrials,Construction Machinery & Heavy Transportation Equipment,Mid,Non-Tech
+THC,Tenet Health,Health Care,Health Care Facilities,Mid,Non-Tech
+THG,Hanover Insurance,Financials,Property & Casualty Insurance,Mid,Non-Tech
+THO,Thor Industries,Consumer Discretionary,Leisure Products,Mid,Non-Tech
+TKR,Timken,Industrials,Industrial Machinery & Supplies & Components,Mid,Non-Tech
+TLN,Talen Energy,Utilities,Independent Power Producers & Energy Traders,Mid,Non-Tech
+TNL,Travel + Leisure Co.,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",Mid,Non-Tech
+TOL,Toll Brothers,Consumer Discretionary,Homebuilding,Mid,Non-Tech
+TOST,"Toast, Inc.",Financials,Transaction & Payment Processing Services,Mid,Non-Tech
+TREX,Trex,Industrials,Building Products,Mid,Non-Tech
+TRU,TransUnion,Industrials,Research & Consulting Services,Mid,Non-Tech
+TTC,Toro,Industrials,Agricultural & Farm Machinery,Mid,Non-Tech
+TTEK,Tetra Tech,Industrials,Construction & Engineering,Mid,Non-Tech
+TTMI,TTM Technologies,Information Technology,Electronic Manufacturing Services,Mid,Tech
+TWLO,Twilio,Information Technology,Systems Software,Mid,Tech
+TXNM,TXNM Energy,Utilities,Electric Utilities,Mid,Non-Tech
+TXRH,Texas Roadhouse,Consumer Discretionary,Restaurants,Mid,Non-Tech
+UBSI,United Bankshares,Financials,Regional Banks,Mid,Non-Tech
+UFPI,UFP Industries,Industrials,Building Products,Mid,Non-Tech
+UGI,UGI Corp,Utilities,Gas Utilities,Mid,Non-Tech
+ULS,UL Solutions,Industrials,Research & Consulting Services,Mid,Non-Tech
+UMBF,UMB Financial Corp.,Financials,Regional Banks,Mid,Non-Tech
+UNM,Unum,Financials,Life & Health Insurance,Mid,Non-Tech
+USFD,US Foods,Consumer Staples,Food Distributors,Mid,Non-Tech
+UTHR,United Therapeutics,Health Care,Biotechnology,Mid,Non-Tech
+VAL,Valaris,Energy,Oil & Gas Drilling,Mid,Non-Tech
+VC,Visteon,Consumer Discretionary,Automotive Parts & Equipment,Mid,Non-Tech
+VFC,VF Corporation,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",Mid,Non-Tech
+VIAV,Viavi Solutions,Information Technology,Communications Equipment,Mid,Tech
+VICR,Vicor Corporation,Industrials,Electrical Components & Equipment,Mid,Non-Tech
+VLY,Valley Bank,Financials,Regional Banks,Mid,Non-Tech
+VMI,Valmont Industries,Industrials,Industrial Machinery & Supplies & Components,Mid,Non-Tech
+VNO,Vornado Realty Trust,Real Estate,Office REITs,Mid,Non-Tech
+VNOM,Viper Energy,Energy,Oil & Gas Storage & Transportation,Mid,Non-Tech
+VNT,Vontier,Information Technology,Electronic Equipment & Instruments,Mid,Tech
+VOYA,Voya Financial,Financials,Multi-Sector Holdings,Mid,Non-Tech
+VVV,Valvoline,Consumer Discretionary,Automotive Retail,Mid,Non-Tech
+WAL,Western Alliance Bancorporation,Financials,Regional Banks,Mid,Non-Tech
+WCC,WESCO International,Industrials,Trading Companies & Distributors,Mid,Non-Tech
+WEX,WEX Inc.,Financials,Transaction & Payment Processing Services,Mid,Non-Tech
+WFRD,Weatherford International,Energy,Oil & Gas Equipment & Services,Mid,Non-Tech
+WH,Wyndham Hotels & Resorts,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",Mid,Non-Tech
+WHR,Whirlpool Corporation,Consumer Discretionary,Household Appliances,Mid,Non-Tech
+WING,Wingstop,Consumer Discretionary,Restaurants,Mid,Non-Tech
+WLK,Westlake Corporation,Materials,Specialty Chemicals,Mid,Non-Tech
+WMG,Warner Music Group,Communication Services,Movies & Entertainment,Mid,Non-Tech
+WMS,Advanced Drainage Systems,Industrials,Building Products,Mid,Non-Tech
+WPC,W. P. Carey,Real Estate,Diversified REITs,Mid,Non-Tech
+WSO,Watsco,Industrials,Trading Companies & Distributors,Mid,Non-Tech
+WTFC,Wintrust Financial,Financials,Regional Banks,Mid,Non-Tech
+WTRG,Essential Utilities,Utilities,Water Utilities,Mid,Non-Tech
+WTS,Watts Water Technologies,Industrials,Building Products,Mid,Non-Tech
+WWD,"Woodward, Inc.",Industrials,Electrical Components & Equipment,Mid,Non-Tech
+XPO,"XPO, Inc.",Industrials,Cargo Ground Transportation,Mid,Non-Tech
+XRAY,Dentsply Sirona,Health Care,Health Care Supplies,Mid,Non-Tech
+YETI,Yeti Holdings,Consumer Discretionary,Leisure Products,Mid,Non-Tech
+ZION,Zions Bancorporation,Financials,Regional Banks,Mid,Non-Tech
