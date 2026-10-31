@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>TrendScout - Diagnostics</title>
+<meta name="theme-color" content="#0f1420">
+<meta name="robots" content="noindex, nofollow">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="TrendScout">
+<style>
+:root{
+  --bg:#0f1420; --panel:#161d2e; --panel-2:#1c2438; --border:#2a3550;
+  --text:#e8ecf6; --muted:#8b95ad; --green:#3ecf8e; --red:#ff6b6b;
+  --tech:#6c8fff; --nontech:#f2b84b; --accent:#7c9cff;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+     margin:0;padding:0 0 60px;}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px 28px;}
+header.top{padding:20px;border-bottom:1px solid var(--border);}
+header.top h1{margin:0 0 4px;font-size:26px;}
+header.top .meta{color:var(--muted);font-size:13px;}
+nav.tabs{display:flex;gap:4px;padding:0 20px;border-bottom:1px solid var(--border);background:var(--panel-2);}
+nav.tabs a{color:var(--muted);text-decoration:none;font-size:13.5px;font-weight:600;padding:14px 16px;
+           border-bottom:2px solid transparent;}
+nav.tabs a.active{color:var(--text);border-bottom-color:var(--accent);}
+nav.tabs a:hover{color:var(--text);}
+.disclaimer{background:#241a1a;border:1px solid #4a2f2f;color:#f2b8b8;border-radius:8px;
+            padding:12px 16px;font-size:12.5px;margin:18px 0;line-height:1.5;}
+h2.section{font-size:19px;margin:34px 0 6px;padding-bottom:8px;border-bottom:2px solid var(--border);
+           display:flex;align-items:center;gap:10px;}
+p.section-sub{color:var(--muted);font-size:13px;margin:0 0 16px;}
+.badge{font-size:10.5px;padding:2px 8px;border-radius:20px;font-weight:600;letter-spacing:.3px;}
+.badge.tech{background:rgba(108,143,255,.15);color:var(--tech);}
+.badge.nontech{background:rgba(242,184,75,.15);color:var(--nontech);}
+.badge.penny{background:rgba(255,107,107,.15);color:var(--red);}
+.note{background:var(--panel);border:1px solid var(--border);color:var(--muted);border-radius:8px;
+      padding:10px 14px;font-size:12.5px;margin:0 0 14px;line-height:1.5;}
+.note b{color:var(--text);}
+.free-btn{display:inline-block;margin:6px 0 0 6px;background:none;border:1px solid var(--border);
+          color:var(--muted);font-size:10.5px;padding:2px 9px;border-radius:20px;cursor:pointer;}
+.free-btn:hover{border-color:var(--accent);color:var(--accent);}
+.free-btn.mini{margin:0 0 0 4px;padding:0 5px;font-size:11px;line-height:1.4;flex-shrink:0;}
+.card .news .news-row{display:flex;align-items:flex-start;margin-bottom:4px;}
+.card .news .news-row a{margin-bottom:0;flex:1;}
+.free-pop{width:340px;max-width:calc(100vw - 16px);padding:10px 12px;font-size:12px;color:var(--muted);line-height:1.45;}
+.free-pop .fp-head{font-weight:600;color:var(--text);margin-bottom:6px;}
+.free-pop a.hit{display:block;color:var(--accent);text-decoration:none;padding:5px 0;border-top:1px solid var(--border);}
+.free-pop a.hit:hover{text-decoration:underline;}
+.free-pop a.hit .fs{display:block;color:var(--muted);font-size:10.5px;text-transform:uppercase;letter-spacing:.3px;}
+.free-pop .fp-foot{margin-top:6px;padding-top:6px;border-top:1px solid var(--border);}
+.free-pop .fp-foot a{color:var(--accent);text-decoration:none;}
+.free-pop .fp-note{font-size:10.5px;margin-top:4px;}
+pre.diag{background:var(--panel);border:1px solid var(--border);border-radius:8px;padding:14px;font-size:11.5px;
+         line-height:1.5;overflow:auto;white-space:pre-wrap;word-break:break-word;color:var(--muted);max-height:70vh;}
+.meta a{color:inherit;}
+.history-bar{margin:34px 0 0;padding:10px 14px;border:1px dashed var(--border);border-radius:8px;
+             font-size:12.5px;color:var(--muted);line-height:1.6;}
+.history-bar b{color:var(--text);}
+.history-bar a{color:var(--accent);text-decoration:none;}
+.history-bar a:hover{text-decoration:underline;}
+.spark svg{display:block;width:100%;height:55px;}
+.mix-variant{display:none;}
+.mix-variant.active{display:block;}
+.banner{border-radius:8px;padding:10px 14px;margin:14px 0 0;font-size:12.5px;line-height:1.45;display:none;}
+.banner.show{display:block;}
+.banner.warn{background:#2a2316;border:1px solid #5a4a22;color:#f2d38a;}
+.banner.info{background:#16233a;border:1px solid #2f4a7a;color:#b9d0ff;}
+.banner button{margin-left:8px;background:var(--accent);color:#0f1420;border:none;border-radius:14px;
+               padding:4px 13px;font-weight:700;font-size:12px;cursor:pointer;}
+header.top .hdr-row{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;}
+.refresh-btn{background:var(--panel);border:1px solid var(--border);color:var(--text);border-radius:18px;
+             padding:7px 13px;font-size:12.5px;cursor:pointer;white-space:nowrap;}
+.refresh-btn:hover{border-color:var(--accent);}
+@media (pointer: coarse), (max-width:640px){
+  /* finger-sized tap targets on any touch screen (tablet or phone) */
+  .card{padding-bottom:56px;}
+  .news-item{padding-right:14px;padding-bottom:46px;}
+  .track{bottom:3px;right:3px;width:42px;height:42px;display:flex;align-items:center;justify-content:center;}
+  .track input{width:100%;height:100%;left:0;top:0;}
+  .track .mark{width:21px;height:21px;}
+  .track input:checked + .mark::after{line-height:20px;font-size:13px;}
+  .share-btn{bottom:3px;right:46px;width:42px;height:42px;}
+  .share-btn svg{width:18px;height:18px;}
+  .share-btn.page{width:auto;height:auto;}
+  .free-btn{padding:6px 12px;font-size:12px;}
+  .free-btn.mini{padding:4px 9px;font-size:14px;}
+  .mix-ctl button{padding:6px 11px;font-size:12px;}
+  .wire-filters button{padding:7px 13px;font-size:12.5px;}
+  .remove-btn{padding:6px 12px;}
+  .card .news a{font-size:12.5px;}
+  table.fx td,table.fx th{padding:8px 6px;}
+}
+@media (max-width:640px){
+  header.top{padding:14px 14px 12px;}
+  header.top h1{font-size:19px;}
+  nav.tabs{padding:0 4px;overflow-x:auto;}
+  nav.tabs a{padding:12px 11px;font-size:13px;white-space:nowrap;}
+  .wrap{padding:0 14px 24px;}
+  h2.section{font-size:17px;flex-wrap:wrap;margin-top:28px;}
+  .grid{grid-template-columns:1fr;}
+  .mix-ctl{margin-left:0;width:100%;}
+  table.fx{font-size:12.5px;}
+  .page-actions{flex-direction:column;}
+}
+.badge.trending{background:rgba(62,207,142,.15);color:var(--green);}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:12px;}
+.card{background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:14px 16px;
+      position:relative;}
+.card .row1{display:flex;justify-content:space-between;align-items:baseline;padding-right:22px;}
+.card .sym{font-size:16px;font-weight:700;}
+.card .name{color:var(--muted);font-size:11.5px;margin-top:1px;}
+.card .price{font-size:15px;font-weight:600;}
+.card .pct{font-size:12.5px;font-weight:600;}
+.pct.pos{color:var(--green);} .pct.neg{color:var(--red);}
+.card .stats{display:flex;gap:14px;margin-top:8px;font-size:11.5px;color:var(--muted);}
+.card .spark{margin-top:8px;}
+.card .badges{display:flex;gap:6px;margin-top:8px;flex-wrap:wrap;}
+.card .news{margin-top:10px;border-top:1px solid var(--border);padding-top:8px;}
+.card .news a{color:var(--accent);text-decoration:none;font-size:11.5px;display:block;margin-bottom:4px;line-height:1.35;}
+.card .news a:hover{text-decoration:underline;}
+.card .news .src{color:var(--muted);}
+table.fx{width:100%;border-collapse:collapse;font-size:13px;}
+table.fx th{text-align:left;color:var(--muted);font-weight:600;font-size:11.5px;padding:8px 10px;border-bottom:1px solid var(--border);}
+table.fx td{padding:8px 10px;border-bottom:1px solid var(--border);}
+.news-list{display:flex;flex-direction:column;gap:10px;}
+.news-item{background:var(--panel);border:1px solid var(--border);border-radius:8px;padding:10px 14px;
+           position:relative;padding-right:66px;}
+.news-item .src{font-size:11px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.4px;}
+.news-item a{color:var(--text);text-decoration:none;font-size:14px;display:block;margin-top:3px;}
+.news-item a:hover{color:var(--accent);}
+.news-item .summary{color:var(--muted);font-size:12.5px;margin-top:4px;line-height:1.4;}
+.news-item .secondary-tag{display:inline-block;margin-top:6px;font-size:10.5px;background:rgba(124,156,255,.15);
+    color:var(--accent);padding:2px 8px;border-radius:20px;}
+footer.foot{color:var(--muted);font-size:11.5px;text-align:center;margin-top:40px;}
+/* Watchlist checkbox: discreet, bottom-right */
+.track{position:absolute;bottom:8px;right:10px;cursor:pointer;}
+.track input{position:absolute;opacity:0;width:20px;height:20px;margin:0;cursor:pointer;}
+.track .mark{display:block;width:16px;height:16px;border:1.5px solid var(--border);border-radius:4px;
+             background:var(--panel-2);transition:all .15s;}
+.track input:checked + .mark{background:var(--accent);border-color:var(--accent);}
+.track input:checked + .mark::after{content:"✓";display:block;text-align:center;line-height:15px;
+             font-size:11px;color:#0f1420;font-weight:700;}
+.track:hover .mark{border-color:var(--accent);}
+.empty-state{color:var(--muted);font-size:14px;padding:40px 20px;text-align:center;
+             border:1px dashed var(--border);border-radius:10px;}
+.wire-filters{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px;}
+.wire-filters button{background:var(--panel);border:1px solid var(--border);color:var(--muted);
+    font-size:11.5px;padding:5px 12px;border-radius:20px;cursor:pointer;}
+.wire-filters button.active{background:var(--accent);color:#0f1420;border-color:var(--accent);font-weight:600;}
+.remove-btn{background:none;border:1px solid var(--border);color:var(--muted);font-size:11px;
+    padding:3px 10px;border-radius:14px;cursor:pointer;margin-top:8px;}
+.remove-btn:hover{border-color:var(--red);color:var(--red);}
+.watch-meta{color:var(--muted);font-size:10.5px;margin-top:6px;}
+/* Share button: sits just left of the watchlist checkbox */
+.share-btn{position:absolute;bottom:5px;right:34px;width:24px;height:24px;padding:0;border:none;
+           background:none;color:var(--muted);cursor:pointer;border-radius:4px;
+           display:flex;align-items:center;justify-content:center;}
+.share-btn:hover{color:var(--accent);}
+.share-btn svg{width:14px;height:14px;}
+.share-btn.page{position:static;width:auto;height:auto;padding:7px 14px;border:1px solid var(--border);
+           border-radius:18px;font-size:12.5px;gap:7px;color:var(--text);background:var(--panel);
+           white-space:nowrap;flex-shrink:0;}
+.share-btn.page:hover{border-color:var(--accent);}
+.share-pop{position:absolute;z-index:50;background:var(--panel-2);border:1px solid var(--border);
+           border-radius:8px;padding:4px;min-width:190px;box-shadow:0 6px 20px rgba(0,0,0,.45);}
+.share-pop button{display:block;width:100%;text-align:left;background:none;border:none;color:var(--text);
+           font-size:12.5px;padding:8px 10px;border-radius:5px;cursor:pointer;}
+.share-pop button:hover{background:var(--panel);color:var(--accent);}
+/* Tech / non-tech mix selector, on the Hot Stocks heading row */
+.badge.even{background:rgba(139,149,173,.15);color:var(--muted);}
+.mix-ctl{margin-left:auto;display:flex;align-items:center;gap:4px;flex-wrap:wrap;
+         font-size:11px;font-weight:500;color:var(--muted);}
+.mix-ctl span{margin-right:4px;}
+.mix-ctl button{background:var(--panel);border:1px solid var(--border);color:var(--muted);font-size:11px;
+         padding:3px 9px;border-radius:14px;cursor:pointer;}
+.mix-ctl button:hover{border-color:var(--accent);color:var(--text);}
+.mix-ctl button.active{background:var(--accent);color:#0f1420;border-color:var(--accent);font-weight:700;}
+.mix-ctl.busy{opacity:.6;pointer-events:none;}
+.page-actions{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;margin:6px 0 4px;}
+.page-actions p{margin:0;}
+.export-meta{color:var(--muted);font-size:12.5px;margin-top:4px;}
+</style></head><body>
+<header class="top">
+  <div class="hdr-row">
+    <div><h1>📊 TrendScout</h1>
+    <div class="meta">Informational only — not investment advice. · Phone edition · scanned Oct 30, 2026 7:49 PM CT · <a href="diagnostics.html">Diagnostics</a></div></div>
+    <button type="button" class="refresh-btn" onclick="refreshNow()" title="Reload the latest snapshot">⟳ Refresh</button>
+  </div>
+</header>
+<nav class="tabs"><a href="index.html" class="">📊 Scan</a><a href="watchlist.html" class="">⭐ Watchlist</a><a href="wire.html" class="">📰 Wire</a></nav>
+<div class="wrap">
+<div id="stale-banner" class="banner warn"></div>
+<div id="update-banner" class="banner info">A newer snapshot is available. <button type="button" onclick="location.reload()">Load it</button></div>
+
+<h2 class="section">🩺 Diagnostics</h2>
+<p class="section-sub">If something looks wrong, tap Copy and paste the result into your chat with Claude. It lists the
+site version, when the snapshot was scanned, this device's browser, how many watchlist items are saved here, and any recent errors.</p>
+<div class="page-actions"><button type="button" class="share-btn page" onclick="copyDiag(this)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.6" y1="13.5" x2="15.4" y2="17.5"/><line x1="15.4" y1="6.5" x2="8.6" y2="10.5"/></svg><span>Copy diagnostics</span></button></div>
+<pre class="diag" id="diag">Gathering...</pre>
+
+</div>
+<script>const BUILD_ID="20261030-194912", SCAN_EPOCH=1793407752.229504, SCAN_LABEL="Oct 30, 2026 7:49 PM CT",
+  SITE_VERSION="Phone edition \u00b7 scanned Oct 30, 2026 7:49 PM CT", REPO_URL="https://github.com/daneathery-cloud/trendscout",
+  FREE_EXCLUDE="-site:wsj.com -site:barrons.com -site:bloomberg.com -site:ft.com -site:theinformation.com -site:nytimes.com -site:washingtonpost.com -site:economist.com -site:businessinsider.com";</script>
+<script>
+function downloadReport(url) { window.location.href = url; }
+function toggleWatch(el, removeOnUncheck) {
+  const type = el.dataset.type, id = el.dataset.id, label = el.dataset.label;
+  let snapshot = {};
+  try { snapshot = JSON.parse(el.dataset.snapshot); } catch(e) {}
+  const action = el.checked ? 'add' : 'remove';
+  const prevChecked = el.checked;
+  fetch('/api/watchlist/toggle', {
+    method: 'POST', headers: {'Content-Type':'application/json'},
+    body: JSON.stringify({action, type, id, label, snapshot})
+  }).then(r => {
+    if (!r.ok) throw new Error('bad response');
+    if (removeOnUncheck && !prevChecked) {
+      const card = el.closest('.card, .news-item');
+      if (card) { card.style.opacity = '0'; setTimeout(() => card.remove(), 200); }
+    }
+  }).catch(() => {
+    el.checked = !prevChecked;
+    alert('Could not update the watchlist. Is TrendScout still running?');
+  });
+}
+let _sharePop = null;
+function closeSharePop() { if (_sharePop) { _sharePop.remove(); _sharePop = null; } }
+document.addEventListener('click', () => { closeSharePop(); closeFreePop(); });
+document.addEventListener('keydown', e => { if (e.key === 'Escape') { closeSharePop(); closeFreePop(); } });
+async function copyText(t) {
+  try { await navigator.clipboard.writeText(t); return true; }
+  catch (e) {
+    const ta = document.createElement('textarea');
+    ta.value = t; ta.style.position = 'fixed'; ta.style.opacity = '0';
+    document.body.appendChild(ta); ta.select();
+    let ok = false; try { ok = document.execCommand('copy'); } catch (_) {}
+    ta.remove(); return ok;
+  }
+}
+function openShare(btn, ev) {
+  ev.stopPropagation(); ev.preventDefault();
+  closeFreePop();
+  const reopen = !(_sharePop && _sharePop._for === btn);
+  closeSharePop();
+  if (!reopen) return;
+  const title = btn.dataset.title || 'TrendScout', text = btn.dataset.text || '';
+  const pop = document.createElement('div');
+  pop.className = 'share-pop'; pop._for = btn;
+  pop.addEventListener('click', e => e.stopPropagation());
+  const add = (label, fn) => {
+    const b = document.createElement('button');
+    b.type = 'button'; b.textContent = label; b.onclick = () => fn(b); pop.appendChild(b);
+  };
+  add('\u2709  Email', () => {
+    let body = text;
+    if (body.length > 1800) body = body.slice(0, 1800) + '\n...(shortened - use Download report for the full version)';
+    const a = document.createElement('a');
+    a.href = 'mailto:?subject=' + encodeURIComponent(title) + '&body=' + encodeURIComponent(body);
+    a.click(); closeSharePop();
+  });
+  add('\u29C9  Copy text', async (b) => {
+    const ok = await copyText(text);
+    b.textContent = ok ? '\u2713  Copied' : 'Copy failed';
+    setTimeout(closeSharePop, 900);
+  });
+  if (btn.dataset.download) {
+    add('\u2B07  Download report (HTML)', () => { downloadReport(btn.dataset.download); closeSharePop(); });
+  }
+  if (navigator.share) {
+    add('\u2197  More apps...', () => { navigator.share({title, text}).catch(() => {}); closeSharePop(); });
+  }
+  document.body.appendChild(pop);
+  const r = btn.getBoundingClientRect(), vw = document.documentElement.clientWidth;
+  pop.style.top = (window.scrollY + r.bottom + 6) + 'px';
+  pop.style.left = Math.max(8, Math.min(window.scrollX + r.right - 190, window.scrollX + vw - 200)) + 'px';
+  _sharePop = pop;
+}
+function setMix(percent, btn) {
+  const ctl = btn.closest('.mix-ctl');
+  if (btn.classList.contains('active')) return;
+  const label = ctl.querySelector('span');
+  ctl.classList.add('busy'); label.textContent = 'Updating...';
+  fetch('/api/settings/tech_split', {
+    method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({percent})
+  }).then(r => {
+      if (!r.ok) throw new Error('bad response');
+      try { sessionStorage.setItem('ts_scroll', String(window.scrollY)); } catch (e) {}
+      location.reload();
+    })
+    .catch(() => {
+      ctl.classList.remove('busy'); label.textContent = 'Tech / Non-tech';
+      alert('Could not change the mix. Is TrendScout still running?');
+    });
+}
+try {
+  const y = sessionStorage.getItem('ts_scroll');
+  if (y !== null) { sessionStorage.removeItem('ts_scroll'); window.scrollTo(0, parseInt(y, 10) || 0); }
+} catch (e) {}
+let _freePop = null;
+function closeFreePop() { if (_freePop) { _freePop.remove(); _freePop = null; } }
+function _place(pop, btn, width) {
+  const r = btn.getBoundingClientRect(), vw = document.documentElement.clientWidth;
+  pop.style.top = (window.scrollY + r.bottom + 6) + 'px';
+  pop.style.left = Math.max(8, Math.min(window.scrollX + r.left, window.scrollX + vw - width - 8)) + 'px';
+}
+function _el(tag, cls, text) {
+  const e = document.createElement(tag);
+  if (cls) e.className = cls;
+  if (text !== undefined) e.textContent = text;
+  return e;
+}
+async function getFreeData(title) {
+  const resp = await fetch('/api/free_versions?title=' + encodeURIComponent(title));
+  if (!resp.ok) throw new Error('bad response');
+  return await resp.json();
+}
+async function openFree(btn, ev) {
+  ev.stopPropagation(); ev.preventDefault();
+  closeSharePop();
+  const same = _freePop && _freePop._for === btn;
+  closeFreePop();
+  if (same) return;
+  const pop = _el('div', 'share-pop free-pop', 'Searching other outlets...');
+  pop._for = btn;
+  pop.addEventListener('click', e => e.stopPropagation());
+  document.body.appendChild(pop);
+  _place(pop, btn, 340);
+  _freePop = pop;
+  try {
+    const d = await getFreeData(btn.dataset.title || '');
+    if (_freePop !== pop) return;
+    pop.textContent = '';
+    pop.appendChild(_el('div', 'fp-head', 'Coverage from other outlets'));
+    if (d.matches && d.matches.length) {
+      d.matches.forEach(m => {
+        const a = _el('a', 'hit');
+        a.href = m.link; a.target = '_blank'; a.rel = 'noopener';
+        a.appendChild(_el('span', 'fs', m.source));
+        a.appendChild(document.createTextNode(m.title));
+        pop.appendChild(a);
+      });
+    } else if (d.notPrepared) {
+      pop.appendChild(_el('div', '', 'This story was not searched in advance. The Google News link below searches other outlets for it.'));
+    } else if (d.error) {
+      pop.appendChild(_el('div', '', 'The search had trouble just now (' + d.error + '). The Google News link below still works.'));
+    } else {
+      pop.appendChild(_el('div', '', 'No close matches from other outlets in the last few days.'));
+    }
+    const foot = _el('div', 'fp-foot');
+    const g = _el('a', '', 'Search Google News for “' + (d.keywords || '').split(' ').slice(0, 3).join(' ') + '” ↗');
+    g.href = d.search_url; g.target = '_blank'; g.rel = 'noopener';
+    foot.appendChild(g);
+    foot.appendChild(_el('div', 'fp-note', 'Matches are by keywords, so check the headline. Some outlets still limit free articles.'));
+    pop.appendChild(foot);
+    _place(pop, btn, 340);
+  } catch (e) {
+    if (_freePop === pop) pop.textContent = 'Could not search right now. Is TrendScout still running?';
+  }
+}
+async function copyDiag(btn) {
+  const ok = await copyText(document.getElementById('diag').textContent);
+  btn.querySelector('span').textContent = ok ? 'Copied - paste it into your chat' : 'Copy failed - select the text manually';
+}
+function filterWire(source, btn) {
+  document.querySelectorAll('.wire-filters button').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  document.querySelectorAll('.news-item[data-source]').forEach(item => {
+    item.style.display = (source === 'all' || item.dataset.source === source) ? '' : 'none';
+  });
+}
+</script>
+<script>
+const WL_KEY = 'trendscout.watchlist.v1', MIX_KEY = 'trendscout.mix.v1', ERR_KEY = 'trendscout.errors.v1';
+const DEFAULT_MIX = 60;
+
+function _lsGet(k, fallback) { try { const v = localStorage.getItem(k); return v === null ? fallback : JSON.parse(v); } catch (e) { return fallback; } }
+function _lsSet(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); return true; } catch (e) { return false; } }
+
+/* Recent errors, kept so the Diagnostics page can show them. */
+function logError(msg) {
+  const list = _lsGet(ERR_KEY, []);
+  list.push(new Date().toISOString() + ' ' + String(msg).slice(0, 300));
+  _lsSet(ERR_KEY, list.slice(-30));
+}
+window.addEventListener('error', e => logError('error: ' + e.message + ' @' + String(e.filename || '').split('/').pop() + ':' + e.lineno));
+window.addEventListener('unhandledrejection', e => logError('promise: ' + ((e.reason && e.reason.message) || e.reason)));
+
+/* ---------- watchlist, saved on this device ---------- */
+const wlKey = (t, i) => t + ':' + i;
+const wlLoad = () => _lsGet(WL_KEY, {});
+const wlSave = m => _lsSet(WL_KEY, m);
+
+function syncChecks(type, id, checked) {
+  document.querySelectorAll('.track input').forEach(cb => {
+    if (cb.dataset.type === type && cb.dataset.id === id) cb.checked = checked;
+  });
+}
+function applyChecks() {
+  const m = wlLoad();
+  document.querySelectorAll('.track input').forEach(cb => { cb.checked = !!m[wlKey(cb.dataset.type, cb.dataset.id)]; });
+}
+function _saveCopy(holder) {
+  // The card's own HTML is what gets saved, so the Watchlist looks exactly like the report.
+  const c = holder.cloneNode(true);
+  c.querySelectorAll('input[type=checkbox]').forEach(i => i.setAttribute('checked', ''));
+  c.removeAttribute('style');
+  return c.outerHTML;
+}
+function toggleWatch(el, removeOnUncheck) {
+  const type = el.dataset.type, id = el.dataset.id, key = wlKey(type, id);
+  const holder = el.closest('.card, .news-item, tr');
+  const m = wlLoad();
+  if (el.checked) {
+    m[key] = {type: type, id: id, label: el.dataset.label || id, html: holder ? _saveCopy(holder) : '',
+              added: new Date().toISOString(), asof: SCAN_LABEL};
+  } else {
+    delete m[key];
+  }
+  if (!wlSave(m)) {
+    el.checked = !el.checked;
+    alert('Could not save to this device (storage is full or blocked in this browser).');
+    return;
+  }
+  syncChecks(type, id, el.checked);
+  if (removeOnUncheck && !el.checked && holder) {
+    holder.style.opacity = '0';
+    setTimeout(renderWatchlist, 200);
+  }
+}
+
+function _watchlistText(items) {
+  const parts = items.map(it => {
+    const b = new DOMParser().parseFromString(it.html || '', 'text/html').querySelector('.share-btn');
+    const t = b ? (b.dataset.text || '') : (it.label || '');
+    return t.replace(/\n*Shared from TrendScout[^\n]*$/, '').trim();
+  });
+  return 'TrendScout Watchlist - ' + new Date().toLocaleDateString() + '\n'
+    + 'Prices are snapshots from the scan noted on each line.\n\n'
+    + parts.join('\n\n') + '\n\nShared from TrendScout - informational only, not investment advice.';
+}
+
+function _watchlistNodes(items, forExport) {
+  const groups = [['stock', '⭐ Stocks'], ['crypto', '⭐ Crypto'], ['fx', '⭐ Currencies'], ['news', '⭐ Stories']];
+  const frag = document.createDocumentFragment();
+  groups.forEach(([type, title]) => {
+    const mine = items.filter(i => i.type === type);
+    if (!mine.length) return;
+    frag.appendChild(_el('h2', 'section', title));
+    let holder;
+    if (type === 'fx') {
+      holder = document.createElement('table'); holder.className = 'fx';
+      holder.innerHTML = '<thead><tr><th>Pair</th><th>Last</th><th>1d</th><th>5d</th>' + (forExport ? '' : '<th></th>') + '</tr></thead><tbody></tbody>';
+    } else {
+      holder = _el('div', type === 'news' ? 'news-list' : 'grid');
+    }
+    const body = type === 'fx' ? holder.querySelector('tbody') : holder;
+    mine.forEach(it => {
+      const t = document.createElement('template');
+      t.innerHTML = (it.html || '').trim().replace('toggleWatch(this, false)', 'toggleWatch(this, true)');
+      const node = t.content.firstElementChild;
+      if (!node) return;
+      const meta = '<div class="watch-meta">Snapshot: ' + (it.asof || '') + '</div>';
+      if (type === 'stock' || type === 'crypto') {
+        const anchor = node.querySelector('.badges');
+        if (anchor) anchor.insertAdjacentHTML('afterend', meta); else node.insertAdjacentHTML('beforeend', meta);
+      } else if (type === 'fx') {
+        const first = node.querySelector('td'); if (first) first.insertAdjacentHTML('beforeend', meta);
+      }
+      if (forExport) node.querySelectorAll('.track, .share-btn, .free-btn, .remove-btn').forEach(x => x.remove());
+      else node.querySelectorAll('.track input').forEach(i => { i.checked = true; });
+      body.appendChild(node);
+    });
+    frag.appendChild(holder);
+  });
+  return frag;
+}
+
+function renderWatchlist() {
+  const root = document.getElementById('wl-root');
+  if (!root) return;
+  const items = Object.values(wlLoad()).sort((a, b) => (b.added || '').localeCompare(a.added || ''));
+  root.textContent = '';
+  const shareSlot = document.getElementById('wl-share');
+  if (shareSlot) shareSlot.textContent = '';
+  if (!items.length) {
+    root.appendChild(_el('div', 'empty-state', 'Nothing on your watchlist yet. Tick the small box at the bottom-right of any stock, coin, currency or headline on the Scan or Wire tabs to save it here.'));
+    return;
+  }
+  if (shareSlot) {
+    const b = document.createElement('button');
+    b.type = 'button'; b.className = 'share-btn page';
+    b.dataset.title = 'TrendScout Watchlist';
+    b.dataset.text = _watchlistText(items);
+    b.dataset.download = '#export';
+    b.onclick = ev => openShare(b, ev);
+    b.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.6" y1="13.5" x2="15.4" y2="17.5"/><line x1="15.4" y1="6.5" x2="8.6" y2="10.5"/></svg><span>Share watchlist</span>';
+    shareSlot.appendChild(b);
+  }
+  root.appendChild(_watchlistNodes(items, false));
+}
+
+/* "Download report" on the Watchlist: a self-contained copy, handed to the phone's share sheet when it can take files. */
+function downloadReport(url) {
+  if (url !== '#export') { window.location.href = url; return; }
+  const items = Object.values(wlLoad()).sort((a, b) => (b.added || '').localeCompare(a.added || ''));
+  const holder = document.createElement('div');
+  holder.appendChild(_watchlistNodes(items, true));
+  const css = (document.querySelector('style') || {}).textContent || '';
+  const disc = (document.querySelector('.disclaimer') || {}).innerHTML || '';
+  const html = '<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">'
+    + '<title>TrendScout Watchlist Report</title><style>' + css + '</style></head><body>'
+    + '<header class="top"><h1>⭐ TrendScout — Watchlist Report</h1><div class="meta">Generated ' + new Date().toLocaleString()
+    + ' · ' + SITE_VERSION + '</div></header><div class="wrap"><div class="disclaimer">' + disc + '</div>'
+    + '<p class="section-sub">Prices are snapshots from the scan date noted on each item, not live quotes.</p>'
+    + holder.innerHTML + '<footer class="foot">Shared from TrendScout - informational only, not investment advice.</footer></div></body></html>';
+  saveReport(html, 'TrendScout_Watchlist_' + new Date().toISOString().slice(0, 10) + '.html');
+}
+async function saveReport(html, filename) {
+  const blob = new Blob([html], {type: 'text/html'});
+  try {
+    const file = new File([blob], filename, {type: 'text/html'});
+    if (navigator.canShare && navigator.canShare({files: [file]})) {
+      await navigator.share({files: [file], title: 'TrendScout Watchlist'});
+      return;
+    }
+  } catch (e) { if (e && e.name === 'AbortError') return; }
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob); a.download = filename;
+  document.body.appendChild(a); a.click();
+  setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 1500);
+}
+
+/* ---------- tech / non-tech mix: every mix is already in the page ---------- */
+function applyMix(pct) {
+  const variants = document.querySelectorAll('.mix-variant');
+  if (!variants.length) return;
+  const have = Array.from(variants).some(v => v.dataset.mix === String(pct));
+  const want = String(have ? pct : DEFAULT_MIX);
+  variants.forEach(v => v.classList.toggle('active', v.dataset.mix === want));
+}
+function setMix(percent, btn) {
+  _lsSet(MIX_KEY, percent);
+  applyMix(percent);
+}
+
+/* ---------- find free versions: matches were looked up when the snapshot was built ---------- */
+let _freeData = null;
+async function getFreeData(title) {
+  if (_freeData === null) {
+    try {
+      const r = await fetch('free.json?v=' + encodeURIComponent(BUILD_ID));
+      _freeData = r.ok ? await r.json() : {};
+    } catch (e) { _freeData = {}; }
+  }
+  const d = _freeData[title];
+  if (d) return Object.assign({ok: true, error: null}, d);
+  const clean = title.replace(/\s+-\s+[^-]{2,40}$/, '');
+  return {ok: true, matches: [], error: null, notPrepared: true, keywords: clean.split(' ').slice(0, 4).join(' '),
+          search_url: 'https://news.google.com/search?q=' + encodeURIComponent(clean + ' ' + FREE_EXCLUDE + ' when:7d') + '&hl=en-US&gl=US&ceid=US:en'};
+}
+
+/* ---------- freshness: banners, refresh, update detection ---------- */
+function refreshNow() { location.reload(); }
+async function checkVersion() {
+  try {
+    const r = await fetch('version.json', {cache: 'no-store'});
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    const d = await r.json();
+    window.__lastVersionCheck = new Date().toISOString() + ' - site build ' + d.build;
+    if (d.build && d.build !== BUILD_ID) document.getElementById('update-banner').classList.add('show');
+  } catch (e) { window.__lastVersionCheck = new Date().toISOString() + ' - could not check (' + e.message + ')'; }
+}
+function checkStale() {
+  const hours = (Date.now() / 1000 - SCAN_EPOCH) / 3600;
+  const b = document.getElementById('stale-banner');
+  if (!b) return;
+  if (hours > 30) {
+    const age = hours >= 48 ? Math.floor(hours / 24) + ' days' : Math.round(hours) + ' hours';
+    b.textContent = 'This snapshot is ' + age + ' old (scanned ' + SCAN_LABEL + '), so prices may have moved a lot.';
+    b.classList.add('show');
+  } else { b.classList.remove('show'); }
+}
+
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js', {updateViaCache: 'none'}).then(reg => {
+    document.addEventListener('visibilitychange', () => {
+      if (!document.hidden) { reg.update().catch(() => {}); checkVersion(); checkStale(); }
+    });
+    window.addEventListener('pageshow', e => { if (e.persisted) { reg.update().catch(() => {}); checkVersion(); checkStale(); } });
+  }).catch(e => logError('service worker: ' + e.message));
+}
+
+/* ---------- Diagnostics page ---------- */
+async function renderDiagnostics() {
+  const el = document.getElementById('diag');
+  if (!el) return;
+  await checkVersion();
+  const wl = wlLoad(), errs = _lsGet(ERR_KEY, []);
+  let sw = 'not supported';
+  if ('serviceWorker' in navigator) {
+    try {
+      const regs = await navigator.serviceWorker.getRegistrations();
+      sw = regs.length ? 'registered; controlling this page: ' + !!navigator.serviceWorker.controller : 'not registered';
+    } catch (e) { sw = 'error: ' + e.message; }
+  }
+  let caches_ = 'n/a';
+  try { caches_ = (await caches.keys()).join(', ') || '(none)'; } catch (e) {}
+  let storage = 'n/a';
+  try { const s = await navigator.storage.estimate(); storage = Math.round(s.usage / 1024) + ' KB used of ' + Math.round(s.quota / 1048576) + ' MB'; } catch (e) {}
+  let persisted = 'unknown';
+  try { persisted = String(await navigator.storage.persisted()); } catch (e) {}
+  const hours = ((Date.now() / 1000 - SCAN_EPOCH) / 3600).toFixed(1);
+  el.textContent = [
+    '=== TrendScout phone diagnostics ===',
+    'Generated:           ' + new Date().toString(),
+    'Site build:          ' + BUILD_ID,
+    'Snapshot scanned:    ' + SCAN_LABEL + '  (' + hours + ' hours ago)',
+    'Page:                ' + location.href,
+    'Online:              ' + navigator.onLine,
+    'Installed app:       ' + (matchMedia('(display-mode: standalone)').matches || navigator.standalone === true),
+    'Service worker:      ' + sw,
+    'Caches:              ' + caches_,
+    'Last version check: ' + (window.__lastVersionCheck || 'n/a'),
+    'Watchlist items on this device: ' + Object.keys(wl).length,
+    'Chosen tech mix:     ' + _lsGet(MIX_KEY, DEFAULT_MIX),
+    'Storage:             ' + storage + '  (kept permanently by the browser: ' + persisted + ')',
+    'Browser:             ' + navigator.userAgent,
+    'Screen:              ' + screen.width + 'x' + screen.height + ' @' + devicePixelRatio + 'x, viewport ' + innerWidth + 'x' + innerHeight,
+    '',
+    '--- Recent errors (' + errs.length + ') ---',
+  ].concat(errs.length ? errs : ['(none)']).concat(['=== end of diagnostics ===']).join('\n');
+}
+
+/* ---------- start-up ---------- */
+// Ask the browser to keep this site's saved data (the watchlist) instead of clearing it after a stretch of non-use.
+if (navigator.storage && navigator.storage.persist) { navigator.storage.persist().catch(() => {}); }
+applyMix(_lsGet(MIX_KEY, DEFAULT_MIX));
+applyChecks();
+renderWatchlist();
+renderDiagnostics();
+checkStale();
+checkVersion();
+</script>
+</body></html>
